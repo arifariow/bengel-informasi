@@ -1,0 +1,2952 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "title": "Cara Mengatasi Mesin Mobil Overheat",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Panduan lengkap mengatasi mesin mobil yang terlalu panas dengan langkah-langkah aman dan efektif.",
+      "image": "https://images.pexels.com/photos/188777/pexels-photo-188777.jpeg",
+      "solusi": [
+        "Matikan AC dan nyalakan heater untuk membantu pendinginan",
+        "Berhenti di tempat aman dan matikan mesin",
+        "Tunggu mesin dingin sebelum membuka kap mesin",
+        "Periksa level coolant di reservoir",
+        "Tambahkan air radiator jika diperlukan",
+        "Periksa kebocoran pada selang radiator"
+      ],
+      "batas_aman": {
+        "suhu_normal": "80-90°C",
+        "suhu_bahaya": "Diatas 100°C",
+        "tindakan_darurat": "Segera matikan mesin jika suhu mencapai zona merah"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa coolant secara rutin setiap 2 minggu",
+          "Ganti coolant setiap 40.000 km atau 2 tahun",
+          "Bersihkan radiator dari kotoran dan serangga",
+          "Periksa kondisi kipas radiator"
+        ],
+        "darurat": [
+          "Jangan buka tutup radiator saat panas",
+          "Gunakan air biasa sebagai pengganti sementara",
+          "Hubungi bengkel terdekat untuk penanganan lanjut"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mengatasi Mobil Susah Distarter",
+      "topic": "Masalah Starter",
+      "vehicle_type": "mobil",
+      "description": "Solusi praktis untuk mengatasi mobil yang susah hidup atau tidak mau distarter.",
+      "image": "https://images.unsplash.com/photo-1579786942393-368c342a7810?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi aki dan tegangan (12.6V saat mesin mati)",
+        "Bersihkan terminal aki dari korosi dengan air panas",
+        "Periksa dan ganti busi jika sudah aus atau kotor",
+        "Cek fuel pump dan filter bensin",
+        "Periksa sistem pengapian dan koil"
+      ],
+      "batas_aman": {
+        "tegangan_aki": "12.6V (mesin mati), 13.5-14.5V (mesin hidup)",
+        "celah_busi": "0.7-0.9mm untuk mobil bensin",
+        "tekanan_fuel": "2.5-3.5 bar untuk sistem injeksi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Panaskan mesin minimal 5 menit setiap hari",
+          "Ganti oli mesin sesuai jadwal",
+          "Periksa aki setiap 3 bulan",
+          "Gunakan fuel additive berkualitas"
+        ],
+        "darurat": [
+          "Coba starter ulang setelah 30 detik",
+          "Periksa apakah ada bunyi klik dari starter",
+          "Gunakan jumper aki jika aki lemah",
+          "Hubungi mekanik jika masalah berlanjut"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Rem Mobil Berbunyi atau Berdecit",
+      "topic": "Masalah Rem",
+      "vehicle_type": "mobil",
+      "description": "Cara mendiagnosis dan memperbaiki rem mobil yang mengeluarkan bunyi berdecit atau mengganggu.",
+      "image": "https://images.unsplash.com/photo-1580554536257-938a163d6f1a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa ketebalan kampas rem",
+        "Bersihkan kaliper dan piringan rem dari kotoran",
+        "Ganti kampas rem jika sudah tipis (kurang dari 3mm)",
+        "Periksa kondisi piringan rem, apakah ada goresan atau tidak rata",
+        "Lumasi pin kaliper rem"
+      ],
+      "batas_aman": {
+        "ketebalan_kampas_rem": "Minimal 3mm",
+        "kondisi_piringan": "Rata dan tidak bergelombang",
+        "minyak_rem": "Level antara MIN dan MAX"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa rem setiap 10.000 km",
+          "Ganti minyak rem setiap 2 tahun atau 40.000 km",
+          "Hindari pengereman mendadak yang tidak perlu"
+        ],
+        "darurat": [
+          "Kurangi kecepatan secara perlahan jika rem terasa kurang pakem",
+          "Gunakan rem tangan secara hati-hati jika rem utama blong",
+          "Segera menepi dan panggil bantuan"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "AC Mobil Tidak Dingin",
+      "topic": "Masalah AC",
+      "vehicle_type": "mobil",
+      "description": "Penyebab umum dan solusi untuk AC mobil yang hanya mengeluarkan angin tanpa rasa dingin.",
+      "image": "https://images.unsplash.com/photo-1542328682-93e8a7372b38?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level freon AC",
+        "Cek apakah kompresor AC bekerja (terdengar bunyi 'klik')",
+        "Bersihkan filter kabin yang kotor",
+        "Periksa extra fan di depan kondensor AC",
+        "Cek kemungkinan kebocoran pada selang atau sistem AC"
+      ],
+      "batas_aman": {
+        "tekanan_freon_low": "25-35 psi",
+        "tekanan_freon_high": "150-250 psi",
+        "suhu_output": "Idealnya di bawah 10°C"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Servis AC secara rutin setiap tahun",
+          "Bersihkan filter kabin setiap 3 bulan",
+          "Nyalakan AC minimal 10 menit setiap minggu untuk menjaga sirkulasi"
+        ],
+        "darurat": [
+          "Matikan AC jika tercium bau aneh atau berasap",
+          "Buka jendela sebagai ventilasi sementara",
+          "Kunjungi spesialis AC mobil"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lampu Indikator Mesin (Check Engine) Menyala",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Arti dari lampu indikator mesin yang menyala dan langkah-langkah yang harus diambil.",
+      "image": "https://images.unsplash.com/photo-1617802847524-726433c01a2e?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa apakah tutup bensin sudah tertutup rapat",
+        "Gunakan scanner OBD-II untuk membaca kode error",
+        "Periksa sensor oksigen (O2 sensor)",
+        "Cek busi dan koil pengapian",
+        "Periksa catalytic converter"
+      ],
+      "batas_aman": {
+        "lampu_menyala_stabil": "Indikasi masalah, bisa tetap jalan namun segera periksa",
+        "lampu_berkedip": "Masalah serius, segera hentikan kendaraan dan matikan mesin"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan servis rutin sesuai anjuran pabrikan",
+          "Gunakan bahan bakar dengan oktan yang sesuai",
+          "Jaga kebersihan filter udara"
+        ],
+        "darurat": [
+          "Jika lampu berkedip, segera menepi di tempat aman",
+          "Hubungi bengkel atau layanan darurat jalan tol",
+          "Hindari mengemudi jarak jauh jika lampu menyala stabil"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Setir Mobil Bergetar pada Kecepatan Tinggi",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Mengidentifikasi penyebab dan cara mengatasi setir yang bergetar saat mobil melaju.",
+      "image": "https://images.unsplash.com/photo-1631484277492-302a9b3e9a44?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lakukan balancing pada keempat roda",
+        "Periksa kondisi velg, apakah ada yang penyok atau retak",
+        "Cek kondisi ban, apakah ada benjolan atau tidak rata",
+        "Periksa komponen suspensi seperti tie rod dan ball joint",
+        "Lakukan spooring jika mobil terasa lari ke satu sisi"
+      ],
+      "batas_aman": {
+        "getaran_ringan": "Biasanya masalah balancing",
+        "getaran_kuat": "Bisa jadi masalah suspensi atau ban, kurangi kecepatan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan balancing dan spooring setiap 10.000 km",
+          "Rotasi ban secara berkala",
+          "Periksa tekanan angin ban secara rutin"
+        ],
+        "darurat": [
+          "Kurangi kecepatan hingga getaran hilang",
+          "Menepi dan periksa kondisi fisik ban",
+          "Hindari perjalanan jauh sebelum diperbaiki"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Knalpot Mobil Mengeluarkan Asap Putih",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Mengenali penyebab asap putih dari knalpot dan tingkat bahayanya.",
+      "image": "https://images.unsplash.com/photo-1603492576971-6a2c97519a84?w=400&h=300&fit=crop",
+      "solusi": [
+        "Jika asap tipis dan cepat hilang, itu adalah kondensasi (normal saat pagi hari)",
+        "Jika asap tebal dan berbau sangit, periksa kebocoran oli mesin (seal klep atau ring piston aus)",
+        "Jika asap tebal dan berbau manis, periksa kebocoran air pendingin (gasket kepala silinder rusak)",
+        "Periksa level oli mesin dan air radiator"
+      ],
+      "batas_aman": {
+        "asap_tipis": "Normal, tidak perlu khawatir",
+        "asap_tebal_terus_menerus": "Indikasi kerusakan internal mesin, segera periksa"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli sesuai spesifikasi dan jadwal",
+          "Jaga suhu mesin agar tidak overheat",
+          "Lakukan tune-up secara berkala"
+        ],
+        "darurat": [
+          "Jika asap sangat tebal, hentikan mobil",
+          "Periksa level oli dan air radiator, jangan dijalankan jika kurang",
+          "Gunakan jasa towing untuk membawa mobil ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Rantai Motor Berisik",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "motor",
+      "description": "Penyebab dan cara mengatasi rantai motor yang kendor atau mengeluarkan suara berisik.",
+      "image": "https://images.unsplash.com/photo-1621255148937-215c0e7049c9?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bersihkan rantai dari kotoran dan karat menggunakan pembersih rantai",
+        "Lumasi rantai dengan pelumas rantai (chain lube) yang berkualitas",
+        "Setel ketegangan rantai (jarak main bebas ideal 2-3 cm)",
+        "Periksa kondisi gear depan dan belakang, ganti jika sudah tajam atau aus",
+        "Ganti satu set rantai dan gear jika sudah melewati batas pemakaian"
+      ],
+      "batas_aman": {
+        "ketegangan_rantai": "Jarak main bebas 2-3 cm",
+        "kondisi_gear": "Mata gear tidak runcing atau aus"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Bersihkan dan lumasi rantai setiap 500 km atau setelah terkena hujan",
+          "Periksa ketegangan rantai setiap 1.000 km",
+          "Gunakan gear set original atau berkualitas baik"
+        ],
+        "darurat": [
+          "Jika rantai putus di jalan, jangan coba disambung seadanya",
+          "Dorong motor ke bengkel terdekat",
+          "Selalu bawa kunci pas dasar untuk menyetel rantai"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": "Motor Susah Masuk Gigi (Persneling Keras)",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "motor",
+      "description": "Solusi untuk motor yang sulit atau keras saat memindahkan gigi persneling.",
+      "image": "https://images.unsplash.com/photo-1591783820251-68953185e78a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Setel jarak main bebas tuas kopling (sekitar 10-15mm)",
+        "Periksa kualitas dan volume oli mesin, ganti jika sudah waktunya",
+        "Lumasi kabel kopling jika menggunakan tipe kabel",
+        "Periksa kondisi kampas kopling, mungkin sudah aus",
+        "Cek kondisi stut kopling dan rumah kopling"
+      ],
+      "batas_aman": {
+        "jarak_main_kopling": "10-15mm pada ujung tuas",
+        "level_oli": "Antara tanda atas dan bawah pada dipstick"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli mesin secara rutin sesuai anjuran pabrikan",
+          "Setel kopling secara berkala",
+          "Gunakan oli dengan spesifikasi yang tepat (JASO MA/MB)"
+        ],
+        "darurat": [
+          "Coba mainkan tuas kopling beberapa kali sebelum memindahkan gigi",
+          "Matikan mesin, masukkan gigi 1, lalu nyalakan mesin sambil menahan kopling untuk memulai jalan",
+          "Segera bawa ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "title": "Ban Mobil atau Motor Benjol",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "kendaraan",
+      "description": "Risiko dan tindakan yang harus diambil ketika menemukan benjolan pada dinding ban.",
+      "image": "https://images.unsplash.com/photo-1568595423215-620400b9104d?w=400&h=300&fit=crop",
+      "solusi": [
+        "Ban yang benjol tidak dapat diperbaiki",
+        "Segera ganti ban tersebut dengan ban baru atau ban serep",
+        "Pindahkan ban yang benjol ke posisi belakang jika terpaksa harus berjalan sebentar",
+        "Periksa tekanan angin ban agar sesuai rekomendasi pabrikan"
+      ],
+      "batas_aman": {
+        "kecepatan_maksimal": "Kurangi kecepatan hingga di bawah 60 km/jam",
+        "risiko": "Risiko tinggi meledak secara tiba-tiba"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menghantam lubang dengan kecepatan tinggi",
+          "Jaga tekanan angin ban sesuai standar",
+          "Jangan membawa beban berlebih",
+          "Periksa kondisi fisik ban secara rutin"
+        ],
+        "darurat": [
+          "Jika benjolan muncul saat berkendara, segera kurangi kecepatan dan menepi",
+          "Ganti dengan ban serep",
+          "Jika tidak ada ban serep, berkendaralah dengan sangat pelan ke bengkel ban terdekat"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "title": "Knalpot Mobil Mengeluarkan Asap Hitam",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Penyebab dan solusi untuk asap knalpot berwarna hitam pekat, menandakan campuran bahan bakar yang terlalu kaya.",
+      "image": "https://images.unsplash.com/photo-1605342416801-7de397e55598?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bersihkan atau ganti filter udara yang kotor",
+        "Periksa dan bersihkan injektor bahan bakar yang mungkin tersumbat",
+        "Cek sensor Mass Air Flow (MAF) atau Manifold Absolute Pressure (MAP)",
+        "Periksa regulator tekanan bahan bakar",
+        "Untuk mobil tua, setel ulang karburator"
+      ],
+      "batas_aman": {
+        "emisi_normal": "Gas buang tidak berwarna atau sedikit terlihat",
+        "indikasi_boros_bbm": "Asap hitam biasanya disertai dengan konsumsi bahan bakar yang boros"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan tune-up dan pembersihan ruang bakar secara berkala",
+          "Ganti filter udara sesuai jadwal servis",
+          "Gunakan bahan bakar berkualitas baik"
+        ],
+        "darurat": [
+          "Meskipun biasanya tidak darurat, asap hitam yang tebal menandakan pembakaran tidak efisien",
+          "Segera periksakan ke bengkel untuk menghindari kerusakan lebih lanjut pada catalytic converter"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "title": "Wiper Mobil Tidak Bergerak atau Lambat",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Cara memperbaiki wiper yang macet, bergerak lambat, atau tidak berfungsi sama sekali.",
+      "image": "https://images.unsplash.com/photo-1618037305942-8349141f64f3?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring (fuse) wiper",
+        "Cek kondisi karet wiper, ganti jika sudah getas atau sobek",
+        "Periksa motor wiper, apakah ada tanda-tanda kerusakan atau terbakar",
+        "Bersihkan dan lumasi mekanisme lengan wiper",
+        "Periksa saklar wiper di tuas kemudi"
+      ],
+      "batas_aman": {
+        "fungsi_normal": "Wiper bergerak lancar dan membersihkan kaca dengan efektif",
+        "visibilitas_saat_hujan": "Wiper yang tidak berfungsi sangat berbahaya saat hujan deras"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti karet wiper setiap 6-12 bulan",
+          "Jangan menyalakan wiper saat kaca kering",
+          "Bersihkan engsel-engsel wiper dari kotoran"
+        ],
+        "darurat": [
+          "Jika wiper mati saat hujan, segera menepi di tempat aman",
+          "Gunakan produk water repellent (efek daun talas) pada kaca sebagai tindakan preventif",
+          "Tunggu hujan reda sebelum melanjutkan perjalanan"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "title": "Bau Bensin di Dalam Kabin Mobil",
+      "topic": "Masalah Bau",
+      "vehicle_type": "mobil",
+      "description": "Mengidentifikasi sumber bau bensin yang berbahaya di dalam kabin mobil.",
+      "image": "https://images.unsplash.com/photo-1617833458892-a16b9b39794d?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa tutup tangki bensin, pastikan terpasang dengan benar",
+        "Cek selang-selang bahan bakar di ruang mesin, cari tanda-tanda rembesan atau retak",
+        "Periksa area di bawah mobil untuk melihat adanya tetesan bahan bakar",
+        "Periksa seal injektor atau paking karburator",
+        "Cek sistem canister uap bensin (EVAP system)"
+      ],
+      "batas_aman": {
+        "risiko_kebakaran": "Bau bensin menandakan adanya kebocoran uap atau cairan yang mudah terbakar",
+        "kesehatan": "Menghirup uap bensin dalam waktu lama berbahaya bagi kesehatan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa sistem bahan bakar secara rutin saat servis",
+          "Ganti komponen selang yang sudah getas atau tua"
+        ],
+        "darurat": [
+          "Segera hentikan kendaraan di area terbuka dan berventilasi baik, jauh dari sumber api",
+          "Matikan mesin dan jangan merokok",
+          "Buka semua jendela untuk mengeluarkan uap bensin",
+          "Hubungi layanan darurat atau towing"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "title": "Motor Ngebul Asap Putih Tipis",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "motor",
+      "description": "Penyebab umum motor 4-tak mengeluarkan asap putih tipis terutama saat mesin dingin atau digeber.",
+      "image": "https://images.unsplash.com/photo-1615822360690-25a8084a96c3?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa seal klep (valve seal) yang kemungkinan sudah getas atau rusak",
+        "Cek kondisi ring piston, kemungkinan sudah lemah atau aus",
+        "Periksa dinding silinder (boring), apakah ada baret atau goresan",
+        "Gunakan oli dengan viskositas yang direkomendasikan pabrikan"
+      ],
+      "batas_aman": {
+        "konsumsi_oli": "Asap putih menandakan oli ikut terbakar, level oli akan cepat berkurang",
+        "performa_mesin": "Biasanya akan diikuti dengan penurunan performa"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli secara rutin dan gunakan oli berkualitas",
+          "Hindari memanaskan mesin terlalu lama dalam kondisi diam",
+          "Lakukan servis besar (turun mesin) jika masalah sudah parah"
+        ],
+        "darurat": [
+          "Selalu periksa level oli sebelum berkendara",
+          "Bawa oli cadangan jika bepergian jauh",
+          "Segera rencanakan perbaikan untuk menghindari kerusakan lebih parah"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "title": "Lampu Sein Motor Berkedip Terlalu Cepat",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Mengatasi masalah lampu sein yang berkedip lebih cepat dari biasanya (hyperflash).",
+      "image": "https://images.unsplash.com/photo-1629897149301-b5517f8b8970?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa apakah ada salah satu bohlam sein (depan atau belakang) yang putus",
+        "Pastikan daya (watt) bohlam pengganti sama dengan bohlam standar",
+        "Jika beralih ke lampu sein LED, ganti flasher standar dengan flasher elektronik khusus LED",
+        "Periksa koneksi kabel dan ground, pastikan tidak ada yang longgar"
+      ],
+      "batas_aman": {
+        "kedipan_normal": "Sekitar 60-120 kedipan per menit",
+        "komunikasi_di_jalan": "Kedipan yang terlalu cepat bisa membingungkan pengendara lain"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan bohlam atau part kelistrikan yang sesuai dengan spesifikasi motor",
+          "Periksa fungsi semua lampu sebelum berkendara"
+        ],
+        "darurat": [
+          "Meskipun tidak berbahaya secara mekanis, segera perbaiki untuk keselamatan komunikasi di jalan",
+          "Gunakan isyarat tangan jika diperlukan"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "title": "Power Window Mobil Macet",
+      "topic": "Masalah Interior",
+      "vehicle_type": "mobil",
+      "description": "Solusi untuk power window yang tidak bisa naik atau turun, atau bergerak dengan seret.",
+      "image": "https://images.unsplash.com/photo-1608422285532-4b26ea656839?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa saklar power window, coba bersihkan atau ganti jika rusak",
+        "Cek sekring (fuse) power window",
+        "Dengarkan apakah ada suara motor bekerja saat saklar ditekan. Jika ada, kemungkinan masalah pada regulator (mekanisme pengangkat)",
+        "Jika tidak ada suara, kemungkinan motor power window yang rusak",
+        "Semprotkan silicone spray pada jalur karet kaca untuk melancarkan gerakan"
+      ],
+      "batas_aman": {
+        "fungsi_dasar": "Memastikan jendela bisa ditutup dengan rapat untuk keamanan",
+        "kenyamanan": "Memudahkan sirkulasi udara dan interaksi (misal bayar tol)"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan jalur karet kaca dari debu dan kotoran",
+          "Hindari menahan saklar terlalu lama setelah kaca mentok di atas atau bawah"
+        ],
+        "darurat": [
+          "Jika kaca macet dalam posisi terbuka, coba tarik atau dorong kaca secara manual sambil menekan saklar",
+          "Tutup sementara dengan plastik jika tidak bisa ditutup dan cuaca buruk"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "title": "Rem Tangan Mobil Kurang Pakem",
+      "topic": "Masalah Rem",
+      "vehicle_type": "mobil",
+      "description": "Cara mengatasi rem tangan (parking brake) yang tidak menahan mobil dengan kuat, terutama di tanjakan.",
+      "image": "https://images.unsplash.com/photo-1603584882588-d6b3a6e85c2c?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lakukan penyetelan pada kabel rem tangan (biasanya ada mur penyetel di bawah tuas atau di bawah mobil)",
+        "Periksa kondisi kampas rem belakang (untuk tipe tromol) atau sepatu rem tangan (untuk tipe cakram dengan rem parkir terpisah)",
+        "Pastikan mekanisme rem tangan di kaliper atau tromol tidak macet",
+        "Periksa kondisi kabel rem tangan, apakah ada yang meregang atau hampir putus"
+      ],
+      "batas_aman": {
+        "jumlah_klik": "Idealnya rem mengunci pada 4-7 'klik' tarikan tuas",
+        "posisi_parkir": "Sangat penting untuk parkir aman di jalan menanjak atau menurun"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa dan setel rem tangan saat servis berkala",
+          "Jangan sering-sering menggunakan rem tangan untuk 'drifting' atau atraksi sejenisnya"
+        ],
+        "darurat": [
+          "Saat parkir di tanjakan, selalu ganjal ban dan masukkan gigi 1 (untuk tanjakan) atau gigi mundur (untuk turunan)",
+          "Segera lakukan penyetelan jika terasa tidak pakem"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "title": "Shockbreaker Motor Bocor atau Ambles",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "motor",
+      "description": "Tanda-tanda shockbreaker motor rusak, bocor, atau mati dan kapan harus diganti.",
+      "image": "https://images.unsplash.com/photo-1628176239999-9d41b6c615a1?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa tabung shockbreaker, jika ada rembesan oli berarti seal sudah bocor dan harus diganti",
+        "Tekan bagian belakang/depan motor, jika ayunan balik lebih dari sekali (memantul-mantul) berarti peredaman sudah lemah",
+        "Periksa secara visual apakah ada batang as shockbreaker yang bengkok atau baret",
+        "Ganti oli shockbreaker (untuk tipe yang bisa diservis) atau ganti satu unit (untuk tipe non-servis)"
+      ],
+      "batas_aman": {
+        "stabilitas": "Shockbreaker yang baik menjaga ban tetap menapak di jalan saat menikung atau jalan bergelombang",
+        "kenyamanan": "Meredam guncangan dari permukaan jalan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari membawa beban melebihi kapasitas motor",
+          "Kurangi kecepatan saat melewati polisi tidur atau jalan rusak",
+          "Bersihkan shockbreaker dari kotoran yang bisa merusak seal"
+        ],
+        "darurat": [
+          "Jika shockbreaker mati, motor akan terasa tidak stabil. Berkendaralah lebih pelan dan hati-hati, terutama saat menikung",
+          "Segera ganti untuk mengembalikan keamanan dan kenyamanan berkendara"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "title": "Pintu Mobil Sulit Dibuka atau Ditutup",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Penyebab dan cara memperbaiki pintu mobil yang macet, seret, atau tidak bisa tertutup rapat.",
+      "image": "https://images.unsplash.com/photo-1544626154-6729d38c5a2c?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lumasi engsel-engsel pintu dengan gemuk (grease) atau pelumas semprot",
+        "Periksa mekanisme 'door lock actuator' dan 'door latch', semprot dengan pelumas penetran jika macet",
+        "Cek posisi 'striker' (penyangkut di bodi mobil), mungkin posisinya bergeser dan perlu disetel ulang",
+        "Periksa karet pintu, apakah ada yang sobek atau mengganjal",
+        "Cek door handle (gagang pintu) baik di dalam maupun di luar, mungkin ada komponen yang patah"
+      ],
+      "batas_aman": {
+        "keamanan": "Pintu harus bisa tertutup rapat untuk mencegah terbuka saat jalan dan melindungi dari pencurian",
+        "keselamatan": "Pintu harus bisa dibuka dengan mudah dari dalam saat kondisi darurat"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin melumasi engsel dan mekanisme kunci saat mencuci mobil",
+          "Jangan membanting pintu terlalu keras"
+        ],
+        "darurat": [
+          "Jika pintu tidak bisa ditutup rapat, ikat sementara dengan tali dari dalam demi keamanan",
+          "Jika tidak bisa dibuka dari dalam, coba buka dari luar atau turun dari pintu lain"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "title": "Kaca Mobil Berembun saat Hujan",
+      "topic": "Kenyamanan dan Keamanan",
+      "vehicle_type": "mobil",
+      "description": "Cara efektif menghilangkan embun pada kaca mobil saat kondisi cuaca hujan atau lembab.",
+      "image": "https://images.unsplash.com/photo-1563191942-70c34a1a3359?w=400&h=300&fit=crop",
+      "solusi": [
+        "Nyalakan AC dan arahkan ke kaca depan (embun di dalam)",
+        "Aktifkan fitur defogger belakang (untuk kaca belakang)",
+        "Nyalakan wiper jika embun berada di luar kaca",
+        "Buka sedikit jendela untuk sirkulasi udara jika tidak terlalu deras",
+        "Gunakan kain microfiber bersih untuk menyeka embun di bagian dalam"
+      ],
+      "batas_aman": {
+        "visibilitas_jelas": "Pandangan ke depan, belakang, dan samping harus bebas dari halangan embun",
+        "risiko_kecelakaan": "Visibilitas yang buruk akibat embun meningkatkan risiko kecelakaan secara signifikan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Pastikan sistem AC berfungsi dengan baik",
+          "Jaga kebersihan kaca bagian dalam dari minyak atau kotoran",
+          "Gunakan cairan anti-embun (anti-fog) pada kaca bagian dalam"
+        ],
+        "darurat": [
+          "Jika embun muncul tiba-tiba dan sangat tebal, kurangi kecepatan dan nyalakan lampu hazard",
+          "Menepi di tempat aman jika visibilitas benar-benar nol"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "title": "Motor Matic Gredek Saat Tarikan Awal",
+      "topic": "Masalah CVT",
+      "vehicle_type": "motor",
+      "description": "Getaran tidak normal dari area CVT saat motor matic mulai berakselerasi dari kondisi diam.",
+      "image": "https://images.unsplash.com/photo-1631215112838-168d6f9b6916?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bersihkan komponen CVT (mangkok ganda, kampas ganda, roller, v-belt) dari debu dan kotoran",
+        "Amplas sedikit permukaan kampas ganda dan mangkok ganda",
+        "Periksa kondisi roller, ganti jika sudah peyang atau aus",
+        "Periksa kondisi v-belt, apakah ada retak-retak",
+        "Beri gemuk (grease) khusus CVT pada alur pin guide sliding sheave"
+      ],
+      "batas_aman": {
+        "kondisi_roller": "Bentuk bulat sempurna, tidak peyang",
+        "kondisi_vbelt": "Tidak ada retak pada bagian dalam"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan servis dan pembersihan CVT secara rutin setiap 4.000 - 8.000 km",
+          "Hindari menerobos banjir yang bisa memasukkan air ke ruang CVT"
+        ],
+        "darurat": [
+          "Gredek biasanya tidak menyebabkan motor mogok, namun sangat mengganggu kenyamanan",
+          "Jika getaran sangat parah, kurangi akselerasi mendadak"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "title": "Kopling Mobil Selip",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "mobil",
+      "description": "Gejala kopling yang kehilangan cengkeraman, menyebabkan putaran mesin naik tapi kecepatan tidak bertambah.",
+      "image": "https://images.unsplash.com/photo-1490274494753-fd4f34282de8?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa dan setel ulang ketinggian serta jarak bebas pedal kopling",
+        "Periksa sistem hidrolik kopling, apakah ada kebocoran minyak pada master atau silinder kopling",
+        "Ganti satu set kopling (kampas, dekrup/matahari, dan laher) jika kampas sudah aus",
+        "Periksa apakah ada rembesan oli dari mesin atau transmisi yang mengenai kampas kopling"
+      ],
+      "batas_aman": {
+        "indikasi_awal": "Tercium bau hangus seperti kampas terbakar setelah melewati tanjakan",
+        "tes_sederhana": "Masukkan gigi 3, tarik rem tangan, lepas kopling perlahan. Jika mesin tidak mati, kopling selip."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari kebiasaan menahan setengah kopling di tanjakan",
+          "Lepas kaki dari pedal kopling setelah memindahkan gigi",
+          "Gunakan gigi rendah saat melewati tanjakan curam"
+        ],
+        "darurat": [
+          "Hindari akselerasi mendadak",
+          "Gunakan momentum untuk melewati tanjakan, jangan berhenti di tengah jalan",
+          "Segera bawa ke bengkel, jangan tunggu sampai tidak bisa jalan sama sekali"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "title": "RPM Mesin Mobil Tidak Stabil (Naik-Turun)",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Kondisi putaran mesin (RPM) yang tidak konstan saat idle atau langsam.",
+      "image": "https://images.unsplash.com/photo-1550853549-521153401570?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bersihkan Idle Speed Control (ISC) atau Idle Air Control Valve (IACV)",
+        "Bersihkan throttle body dari kerak karbon",
+        "Periksa apakah ada kebocoran vakum pada selang-selang intake manifold",
+        "Periksa dan bersihkan sensor Mass Air Flow (MAF)",
+        "Cek kondisi busi dan koil pengapian"
+      ],
+      "batas_aman": {
+        "rpm_idle_normal": "Biasanya antara 750 - 900 RPM (tergantung mobil)",
+        "risiko": "Mesin bisa tiba-tiba mati saat berhenti di lampu merah atau macet"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan tune-up secara berkala",
+          "Gunakan pembersih sistem injeksi (injector cleaner) secara periodik",
+          "Jaga kebersihan filter udara"
+        ],
+        "darurat": [
+          "Jika mesin sering mati, mainkan sedikit pedal gas saat berhenti untuk menjaga RPM",
+          "Matikan AC untuk mengurangi beban mesin"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "title": "Sensor Parkir Mobil Tidak Berfungsi",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Sensor parkir tidak mengeluarkan bunyi peringatan saat mobil mendekati objek di belakang.",
+      "image": "https://images.unsplash.com/photo-1610453189913-15048d738f6b?w=400&h=300&fit=crop",
+      "solusi": [
+        "Pastikan sensor tidak tertutup lumpur, stiker, atau kotoran",
+        "Periksa sekring yang berhubungan dengan sistem parkir",
+        "Masukkan gigi mundur dan minta seseorang mendengarkan setiap sensor. Sensor yang normal akan mengeluarkan bunyi 'tik' sangat pelan",
+        "Periksa koneksi kabel ke modul sensor parkir",
+        "Jika salah satu sensor rusak, biasanya seluruh sistem tidak berfungsi"
+      ],
+      "batas_aman": {
+        "fungsi_bantuan": "Sensor parkir adalah alat bantu, bukan pengganti kewaspadaan pengemudi",
+        "jarak_deteksi": "Biasanya mulai berbunyi dari jarak 1.5 - 2 meter"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Selalu bersihkan permukaan sensor saat mencuci mobil",
+          "Hindari benturan pada area bemper yang dapat merusak sensor"
+        ],
+        "darurat": [
+          "Andalkan sepenuhnya pada spion (dalam, samping) dan menoleh ke belakang saat mundur",
+          "Minta bantuan orang lain sebagai pemandu jika area parkir sangat sempit"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "title": "Air Wiper Mobil Tidak Keluar",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Cara mengatasi masalah ketika cairan pembersih kaca tidak menyemprot ke kaca depan atau belakang.",
+      "image": "https://images.unsplash.com/photo-1607592422316-3783a87a25a2?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level cairan di tabung reservoir air wiper, isi jika kosong",
+        "Dengarkan apakah ada suara dengungan motor pompa saat tuas diaktifkan. Jika tidak ada, periksa sekring atau motornya",
+        "Jika ada suara motor, periksa lubang nozzle (penyemprot), mungkin tersumbat. Bersihkan dengan jarum atau peniti",
+        "Periksa selang-selang air wiper, apakah ada yang terlepas, terjepit, atau bocor"
+      ],
+      "batas_aman": {
+        "visibilitas": "Sangat penting untuk membersihkan kotoran yang menghalangi pandangan saat berkendara",
+        "keselamatan": "Kaca yang kotor dapat mengurangi waktu reaksi pengemudi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan cairan wiper khusus, jangan hanya air biasa yang bisa menyebabkan lumut dan penyumbatan",
+          "Periksa level cairan secara berkala"
+        ],
+        "darurat": [
+          "Jika pandangan terhalang kotoran saat berkendara, menepi dan bersihkan kaca secara manual",
+          "Bawa sebotol air dan kain lap di mobil untuk kondisi darurat"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "title": "Komstir Motor Oblak atau Seret",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "motor",
+      "description": "Gejala dan perbaikan untuk kemudi motor yang terasa goyang, oblak, atau berat saat dibelokkan.",
+      "image": "https://images.unsplash.com/photo-1605175860434-658b5a109f4b?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk oblak: Kencangkan mur pengunci komstir",
+        "Untuk seret/ada 'klik' di posisi lurus: Ganti laher (bearing) komstir atas dan bawah karena sudah rusak atau pecah",
+        "Beri gemuk (grease) berkualitas tinggi pada laher komstir baru saat pemasangan",
+        "Pastikan kekencangan mur pas, tidak terlalu kencang (seret) dan tidak terlalu kendor (oblak)"
+      ],
+      "batas_aman": {
+        "tes_oblak": "Posisikan standar tengah, pegang shock depan, goyangkan maju-mundur. Seharusnya tidak ada gerakan atau bunyi 'kletak'",
+        "stabilitas": "Komstir yang rusak sangat berbahaya karena mengurangi stabilitas dan kontrol motor"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menghantam lubang dengan keras",
+          "Jangan mengangkat ban depan motor terlalu sering (wheelie)"
+        ],
+        "darurat": [
+          "Jika terasa oblak atau seret, segera kurangi kecepatan dan berkendara dengan sangat hati-hati",
+          "Segera bawa ke bengkel, jangan ditunda"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "title": "Cat Mobil Kusam atau Timbul Jamur",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Cara merawat dan mengembalikan kilau cat mobil yang kusam serta menghilangkan jamur (waterspot).",
+      "image": "https://images.unsplash.com/photo-1593952392743-390517373f76?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cuci mobil dengan sampo khusus mobil",
+        "Gunakan clay bar untuk mengangkat kontaminan yang menempel di permukaan cat",
+        "Untuk jamur, gunakan produk waterspot remover. Hati-hati jangan sampai mengenai trim plastik",
+        "Lakukan polishing dengan kompon (untuk baret halus) atau polish (untuk mengembalikan kilau)",
+        "Aplikasikan wax atau coating sebagai lapisan pelindung"
+      ],
+      "batas_aman": {
+        "pelindung_cat": "Lapisan pernis (clear coat) adalah pelindung utama, jangan sampai terkikis habis",
+        "penggunaan_kimia": "Selalu baca petunjuk produk kimia, gunakan di tempat teduh"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jangan biarkan mobil kering dengan sendirinya setelah kehujanan atau dicuci",
+          "Rutin aplikasikan wax minimal sebulan sekali",
+          "Parkir di tempat teduh jika memungkinkan",
+          "Segera bersihkan kotoran burung atau getah pohon"
+        ],
+        "darurat": [
+          "Jika terkena cairan kimia keras, segera bilas dengan banyak air"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "title": "Central Lock Mobil Error",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Masalah pada sistem pengunci pintu terpusat, dimana beberapa atau semua pintu tidak mengunci/membuka.",
+      "image": "https://images.unsplash.com/photo-1597686153926-73345731b0a2?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring central lock",
+        "Periksa baterai remote mobil",
+        "Jika hanya satu pintu yang bermasalah, kemungkinan motor actuator di pintu tersebut lemah atau rusak",
+        "Jika semua pintu bermasalah, bisa jadi masalah pada modul central lock atau saklar utama di pintu pengemudi",
+        "Periksa kabel-kabel di bagian sambungan pintu, mungkin ada yang putus"
+      ],
+      "batas_aman": {
+        "keamanan": "Pastikan semua pintu benar-benar terkunci saat meninggalkan mobil",
+        "keselamatan": "Pastikan pintu bisa dibuka secara manual dari dalam"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jangan terlalu sering memainkan tombol lock/unlock",
+          "Jaga kebersihan mekanisme kunci pintu"
+        ],
+        "darurat": [
+          "Kunci dan buka setiap pintu secara manual untuk sementara waktu",
+          "Jika pintu tidak bisa dikunci sama sekali, jangan tinggalkan barang berharga di dalam mobil"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "title": "Rem Motor Blong",
+      "topic": "Masalah Rem",
+      "vehicle_type": "motor",
+      "description": "Kondisi sangat berbahaya dimana tuas atau pedal rem terasa ringan dan tidak ada daya pengereman.",
+      "image": "https://images.unsplash.com/photo-1622329315367-1b033e50b162?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah habisnya minyak rem atau adanya udara dalam sistem (masuk angin)",
+        "Lakukan bleeding (membuang udara palsu) pada sistem rem hidrolik",
+        "Periksa kebocoran pada selang rem, seal master rem, atau seal kaliper",
+        "Isi kembali tabung reservoir dengan minyak rem baru yang sesuai (DOT 3/4/5.1)",
+        "Untuk rem tromol, periksa apakah kabel putus atau kampas sudah habis total"
+      ],
+      "batas_aman": {
+        "tekanan_rem": "Tuas rem harus terasa padat saat ditarik, bukan kosong",
+        "level_minyak_rem": "Selalu di atas batas 'LOWER'"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti minyak rem secara rutin setiap 1-2 tahun",
+          "Periksa level minyak rem dan ketebalan kampas secara berkala",
+          "Gunakan suku cadang rem yang berkualitas"
+        ],
+        "darurat": [
+          "JANGAN PANIK. Gunakan rem yang masih berfungsi (depan atau belakang)",
+          "Gunakan engine brake (turunkan gigi persneling) untuk membantu memperlambat laju motor",
+          "Arahkan motor ke area yang aman untuk berhenti. JANGAN matikan mesin."
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "title": "Ban Mobil Makan Sebelah",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Kondisi tapak ban yang aus tidak merata, hanya di sisi dalam atau sisi luar saja.",
+      "image": "https://images.unsplash.com/photo-1615488880691-1b9b94016a3f?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lakukan spooring (wheel alignment) untuk menyetel ulang sudut camber, caster, dan toe",
+        "Penyebab umum ban makan luar adalah sudut camber positif, sedangkan makan dalam karena camber negatif",
+        "Penyebab ban aus seperti gigi gergaji (feathering) adalah setelan toe yang salah",
+        "Periksa komponen suspensi yang rusak seperti ball joint atau tie rod",
+        "Periksa tekanan angin ban, pastikan sesuai rekomendasi"
+      ],
+      "batas_aman": {
+        "keausan_merata": "Indikator kaki-kaki yang sehat",
+        "bahaya": "Mengurangi traksi ban, terutama di jalan basah, dan memperpendek usia ban"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan spooring dan balancing secara rutin setiap 10.000 km atau saat ganti ban",
+          "Lakukan rotasi ban secara berkala (depan ke belakang, menyilang)",
+          "Jaga tekanan angin ban ideal"
+        ],
+        "darurat": [
+          "Jika keausan sudah parah, segera ganti ban dan lakukan spooring",
+          "Berkendara lebih hati-hati karena cengkeraman ban tidak optimal"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "title": "Lampu Speedometer Motor Mati",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Lampu penerangan di panel speedometer tidak menyala, sulit melihat informasi saat malam hari.",
+      "image": "https://images.unsplash.com/photo-1620786311634-7a19c614917a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring yang berhubungan dengan panel instrumen",
+        "Buka batok kepala motor dan periksa bohlam lampu speedometer, ganti jika putus",
+        "Untuk speedometer digital, periksa soket kabel di belakang panel, mungkin kendor atau korosi",
+        "Jika lampu LED, bisa jadi LED atau resistor di papan PCB speedometer yang rusak (memerlukan keahlian solder)"
+      ],
+      "batas_aman": {
+        "informasi_berkendara": "Penting untuk mengetahui kecepatan dan level bahan bakar",
+        "gangguan_malam_hari": "Sangat mengganggu dan bisa berbahaya saat berkendara malam"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari mencuci motor dengan semprotan air bertekanan tinggi langsung ke area speedometer",
+          "Jaga sistem kelistrikan motor tetap standar"
+        ],
+        "darurat": [
+          "Gunakan feeling dan suara mesin untuk memperkirakan kecepatan di malam hari",
+          "Perkirakan sisa bensin berdasarkan jarak tempuh terakhir"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "title": "Suara Mesin Mobil Ngelitik (Knocking)",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Bunyi 'tik-tik-tik' atau 'kletek-kletek' dari ruang mesin, terutama saat akselerasi.",
+      "image": "https://images.unsplash.com/photo-1549344234-118884d15f10?w=400&h=300&fit=crop",
+      "solusi": [
+        "Gunakan bahan bakar dengan nilai oktan yang sesuai rekomendasi pabrikan",
+        "Bersihkan kerak karbon di ruang bakar dengan metode carbon clean atau italian tune-up",
+        "Periksa busi, gunakan tipe busi yang tepat (panas/dingin)",
+        "Periksa knock sensor, mungkin sudah tidak berfungsi dengan baik",
+        "Atur ulang waktu pengapian (jika memungkinkan)"
+      ],
+      "batas_aman": {
+        "pembakaran_prematur": "Knocking adalah gejala detonasi atau pembakaran yang tidak sempurna",
+        "kerusakan_jangka_panjang": "Dapat merusak piston, setang piston, dan dinding silinder"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Selalu gunakan bensin dengan oktan yang direkomendasikan",
+          "Lakukan servis rutin dan pembersihan ruang bakar",
+          "Jangan memaksakan mesin di RPM rendah dengan gigi tinggi"
+        ],
+        "darurat": [
+          "Hindari akselerasi mendadak, kendarai mobil dengan lebih halus",
+          "Jika ngelitik sangat parah, segera periksakan ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "title": "Head Unit atau Audio Mobil Mati Total",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Sistem hiburan atau head unit di dashboard tidak mau menyala sama sekali.",
+      "image": "https://images.unsplash.com/photo-1588667817082-353d7f95a435?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring audio, biasanya ada dua: satu di kotak sekring kabin, satu lagi di belakang head unit itu sendiri",
+        "Periksa koneksi kabel daya (merah/ACC dan kuning/B+) dan kabel ground (hitam) di belakang head unit",
+        "Gunakan tespen DC untuk memastikan ada arus listrik yang masuk ke head unit",
+        "Jika semua koneksi dan sekring baik, kemungkinan kerusakan internal pada head unit"
+      ],
+      "batas_aman": {
+        "konsleting": "Pastikan aki dilepas sebelum memeriksa kabel untuk menghindari korsleting",
+        "kenyamanan": "Tidak ada risiko keselamatan, hanya mengurangi kenyamanan berkendara"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan jasa instalatur profesional saat memasang atau mengganti head unit",
+          "Hindari modifikasi kelistrikan yang sembarangan"
+        ],
+        "darurat": [
+          "Tidak ada tindakan darurat yang diperlukan, masalah ini bisa diperbaiki lain waktu"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "title": "Pedal Rem Mobil Terasa Dalam atau Ambles",
+      "topic": "Masalah Rem",
+      "vehicle_type": "mobil",
+      "description": "Jarak injak pedal rem menjadi lebih dalam dari biasanya untuk mendapatkan daya pengereman.",
+      "image": "https://images.unsplash.com/photo-1622207997931-237c17983652?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level minyak rem, jika berkurang drastis kemungkinan ada kebocoran",
+        "Lakukan bleeding untuk membuang udara yang mungkin masuk ke sistem hidrolik",
+        "Periksa master rem silinder, kemungkinan seal internalnya sudah bocor",
+        "Periksa selang rem fleksibel, mungkin menggelembung saat pedal diinjak",
+        "Untuk rem tromol, lakukan penyetelan ulang celah kampas rem"
+      ],
+      "batas_aman": {
+        "jarak_pengereman": "Pedal yang ambles akan memperpanjang jarak berhenti kendaraan",
+        "risiko_blong": "Ini adalah gejala awal sebelum rem benar-benar blong"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti minyak rem setiap 40.000 km atau 2 tahun",
+          "Periksa sistem pengereman secara menyeluruh saat servis berkala"
+        ],
+        "darurat": [
+          "Kocok pedal rem berulang kali (memompa) untuk membangun tekanan sementara",
+          "Manfaatkan engine brake dengan menurunkan gigi transmisi",
+          "Segera menepi dan jangan melanjutkan perjalanan sebelum diperbaiki"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "title": "Lampu Indikator ABS Menyala",
+      "topic": "Masalah Rem",
+      "vehicle_type": "mobil",
+      "description": "Lampu peringatan Anti-lock Braking System (ABS) menyala terus di panel instrumen.",
+      "image": "https://images.unsplash.com/photo-1579781422723-6a56a469796e?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level minyak rem",
+        "Periksa sensor kecepatan roda (wheel speed sensor) di setiap roda, mungkin kotor atau rusak",
+        "Periksa kabel dan konektor sensor ABS, mungkin ada yang putus atau kendor",
+        "Periksa ring gerigi ABS di as roda, mungkin retak atau kotor",
+        "Gunakan scanner OBD-II untuk membaca kode kesalahan spesifik dari modul ABS"
+      ],
+      "batas_aman": {
+        "fungsi_rem": "Saat lampu ABS menyala, sistem pengereman konvensional tetap berfungsi, namun fitur ABS non-aktif.",
+        "pengereman_panik": "Tanpa ABS, roda bisa mengunci saat pengereman mendadak, menyebabkan mobil sulit dikendalikan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jaga kebersihan area sensor roda dari lumpur dan kotoran",
+          "Hati-hati saat melakukan servis kaki-kaki agar tidak merusak sensor atau kabel"
+        ],
+        "darurat": [
+          "Berkendara lebih hati-hati, terutama di jalan basah atau licin",
+          "Jaga jarak aman lebih jauh dari kendaraan di depan",
+          "Segera periksakan ke bengkel yang memiliki scanner"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "title": "Bodi Motor Baret atau Lecet",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "motor",
+      "description": "Cara menghilangkan atau menyamarkan goresan ringan hingga dalam pada bodi motor.",
+      "image": "https://images.unsplash.com/photo-1611799901597-9e0544111326?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk baret halus: Gunakan kompon poles (rubbing compound) lalu lanjutkan dengan polish untuk mengembalikan kilau",
+        "Untuk baret sedang (terkena cat dasar): Gunakan cat oles (touch-up paint) sesuai kode warna motor, lalu poles",
+        "Untuk baret dalam (terlihat plastik bodi): Perlu proses dempul, cat dasar, cat utama, dan pernis. Sebaiknya dilakukan oleh profesional",
+        "Alternatif: Tutup baret dengan stiker atau decal"
+      ],
+      "batas_aman": {
+        "estetika": "Masalah ini umumnya hanya mempengaruhi penampilan, bukan fungsi",
+        "perlindungan": "Cat juga berfungsi melindungi bodi plastik dari paparan UV"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Parkir di tempat yang aman dan tidak terlalu sempit",
+          "Hati-hati saat melewati celah sempit",
+          "Aplikasikan wax atau coating untuk menambah lapisan perlindungan tipis"
+        ],
+        "darurat": [
+          "Tidak ada tindakan darurat, perbaikan bisa dilakukan kapan saja"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "title": "Pintu Geser Elektrik Mobil Macet",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Masalah pada pintu geser otomatis (power sliding door) yang tidak mau membuka atau menutup.",
+      "image": "https://images.unsplash.com/photo-1618374597387-926f2f0a57e2?w=400&h=300&fit=crop",
+      "solusi": [
+        "Matikan tombol 'MAIN' atau 'PSD OFF' di dashboard, lalu nyalakan kembali untuk mereset sistem",
+        "Periksa rel pintu, pastikan tidak ada kerikil atau kotoran yang mengganjal",
+        "Periksa sekring pintu geser",
+        "Periksa kabel baja (sling) pada motor penarik, mungkin putus atau terlepas dari jalurnya",
+        "Jika terdengar bunyi motor tapi pintu tidak bergerak, kemungkinan ada masalah pada mekanisme gerigi atau motornya"
+      ],
+      "batas_aman": {
+        "fungsi_manual": "Pastikan pintu masih bisa dioperasikan secara manual",
+        "keselamatan_anak": "Fitur anti-jepit harus berfungsi, pastikan tidak ada yang menghalangi sensor"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan rel pintu dari debu dan kotoran",
+          "Jangan memaksa membuka atau menutup pintu secara manual saat sistem otomatis aktif"
+        ],
+        "darurat": [
+          "Gunakan mode manual untuk membuka dan menutup pintu",
+          "Jika macet total, jangan dipaksa karena bisa merusak komponen lain"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "title": "Air Radiator Mobil Bercampur Oli",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Kondisi berbahaya dimana air radiator di tabung reservoir terlihat keruh kecoklatan seperti kopi susu.",
+      "image": "https://images.unsplash.com/photo-1627993093954-46a96a77412f?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah paking (gasket) kepala silinder yang jebol",
+        "Penyebab lain bisa jadi ada keretakan pada blok mesin atau kepala silinder",
+        "Pada beberapa mobil, masalah bisa berasal dari oil cooler yang bocor internal",
+        "Perbaikan melibatkan pembongkaran kepala silinder (turun setengah mesin) untuk mengganti paking",
+        "Setelah perbaikan, sistem pendingin harus dikuras total (flushing) untuk menghilangkan sisa oli"
+      ],
+      "batas_aman": {
+        "kondisi_fatal": "Ini adalah masalah mesin yang sangat serius",
+        "risiko_overheat_parah": "Kemampuan pendinginan radiator akan menurun drastis"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jaga suhu mesin agar tidak pernah overheat, karena panas berlebih adalah penyebab utama paking jebol",
+          "Ganti air radiator/coolant secara rutin"
+        ],
+        "darurat": [
+          "SEGERA HENTIKAN KENDARAAN dan matikan mesin",
+          "Jangan melanjutkan perjalanan sama sekali",
+          "Hubungi layanan towing untuk membawa mobil ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "title": "Starter Kaki Motor Macet atau Keras",
+      "topic": "Masalah Starter",
+      "vehicle_type": "motor",
+      "description": "Engkol atau kick starter tidak mau turun saat diinjak, atau tidak mau kembali ke posisi semula.",
+      "image": "https://images.unsplash.com/photo-1606023328574-3a5b8a1c9a6a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Semprotkan pelumas penetran pada poros engkol dari luar",
+        "Buka bak CVT (matic) atau bak kopling (bebek/sport), bersihkan mekanisme gerigi starter dari kotoran dan karat",
+        "Lumasi poros dan gerigi starter dengan gemuk (grease)",
+        "Periksa per (pegas) kick starter, mungkin patah atau terlepas",
+        "Jika macet karena piston terkunci (water hammer), buka busi dan coba engkol perlahan"
+      ],
+      "batas_aman": {
+        "cadangan_starter": "Penting sebagai alternatif jika aki tekor atau starter elektrik rusak",
+        "jangan_dipaksa": "Menginjak paksa engkol yang macet bisa merusak gerigi atau bahkan crankcase"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan kick starter sesekali (misal seminggu sekali) agar mekanismenya tidak macet",
+          "Jaga kebersihan area mesin"
+        ],
+        "darurat": [
+          "Jika starter kaki macet dan starter elektrik juga mati, satu-satunya cara adalah mendorong motor"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "title": "Lampu Indikator Airbag Menyala",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Lampu peringatan SRS (Supplemental Restraint System) Airbag menyala terus di dashboard.",
+      "image": "https://images.unsplash.com/photo-1551830820-a54cf347a2a0?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab umum adalah masalah pada clock spring (kabel spiral) di belakang setir",
+        "Bisa juga karena konektor di bawah jok (untuk sensor berat atau side airbag) kendor atau korosi",
+        "Pernah terjadi benturan ringan yang tidak cukup untuk meledakkan airbag tapi terekam oleh sensor",
+        "Masalah pada modul kontrol airbag (ECU Airbag)",
+        "Perlu di-scan dengan alat diagnosis untuk mengetahui lokasi pasti masalah dan meresetnya"
+      ],
+      "batas_aman": {
+        "sistem_non-aktif": "Saat lampu indikator menyala, sistem airbag TIDAK AKAN berfungsi saat terjadi tabrakan",
+        "keselamatan_utama": "Ini adalah fitur keselamatan pasif yang sangat penting"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hati-hati saat membersihkan area bawah jok atau membongkar setir",
+          "Hindari modifikasi kelistrikan yang terhubung ke sistem SRS"
+        ],
+        "darurat": [
+          "Berkendara dengan lebih waspada karena fitur keselamatan utama tidak aktif",
+          "Segera periksakan ke bengkel yang memiliki alat scan yang kompeten. Jangan coba perbaiki sendiri."
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "title": "Oli Mesin Mobil Rembes atau Bocor",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Mendeteksi dan mengatasi rembesan atau kebocoran oli mesin dari berbagai sumber.",
+      "image": "https://images.unsplash.com/photo-1606578958344-a95a6397e593?w=400&h=300&fit=crop",
+      "solusi": [
+        "Identifikasi sumber kebocoran: paking tutup klep, paking carter oli, seal kruk as, atau filter oli",
+        "Kencangkan baut-baut yang kendor sesuai torsi pabrikan",
+        "Ganti paking atau seal yang sudah getas, sobek, atau rusak",
+        "Pastikan filter oli terpasang dengan kencang dan benar setelah penggantian",
+        "Periksa level oli secara rutin dan tambahkan jika perlu"
+      ],
+      "batas_aman": {
+        "level_oli": "Selalu jaga level oli di antara tanda L (Low) dan F (Full) pada dipstick",
+        "risiko_kebakaran": "Tetesan oli yang mengenai knalpot panas dapat menimbulkan asap dan risiko kebakaran"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan paking dan seal berkualitas saat perbaikan",
+          "Lakukan pengencangan baut sesuai spesifikasi",
+          "Periksa kondisi mesin dari rembesan secara visual setiap beberapa minggu"
+        ],
+        "darurat": [
+          "Jika kebocoran sangat deras, hentikan kendaraan",
+          "Jangan menjalankan mesin dengan level oli di bawah minimum",
+          "Bawa oli cadangan untuk kondisi darurat"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "title": "Mobil Limbung Saat Menikung",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi gejala mobil yang terasa miring berlebihan atau tidak stabil saat bermanuver.",
+      "image": "https://images.unsplash.com/photo-1599249102945-397a699be657?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi shock absorber/peredam kejut, kemungkinan sudah lemah atau bocor",
+        "Cek kondisi per (spring), apakah ada yang patah atau sudah terlalu lembek",
+        "Periksa karet-karet bushing pada lengan suspensi dan stabilizer",
+        "Pastikan tekanan angin keempat ban merata dan sesuai rekomendasi",
+        "Pertimbangkan untuk memasang stabilizer bar jika belum ada"
+      ],
+      "batas_aman": {
+        "kontrol_kendaraan": "Limbung yang parah mengurangi kontrol pengemudi saat menikung atau pindah jalur mendadak",
+        "kecepatan_aman": "Kurangi kecepatan saat menikung jika gejala limbung terasa"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti shock absorber secara berkala (setiap 40.000 - 80.000 km tergantung pemakaian)",
+          "Hindari membawa beban berlebih yang melebihi kapasitas mobil",
+          "Periksa komponen kaki-kaki secara rutin"
+        ],
+        "darurat": [
+          "Kurangi kecepatan secara signifikan sebelum memasuki tikungan",
+          "Hindari manuver mendadak",
+          "Segera periksakan ke bengkel spesialis kaki-kaki"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "title": "Klakson Mobil Mati atau Sember",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "mobil",
+      "description": "Cara memperbaiki klakson yang tidak berbunyi sama sekali atau suaranya tidak normal.",
+      "image": "https://images.unsplash.com/photo-1563728647939-950c6046e7f1?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring klakson di kotak sekring",
+        "Periksa relay klakson, coba tukar dengan relay lain yang sejenis",
+        "Cek koneksi kabel pada klakson, mungkin kendor, putus, atau berkarat",
+        "Gunakan tespen untuk memastikan ada arus listrik yang sampai ke klakson saat tombol ditekan",
+        "Jika klakson sember, coba setel baut penyetel suara pada unit klakson (jika ada)"
+      ],
+      "batas_aman": {
+        "alat_komunikasi": "Klakson adalah alat komunikasi dan peringatan penting di jalan",
+        "fungsi_wajib": "Klakson yang berfungsi adalah salah satu syarat kelaikan jalan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari mencuci ruang mesin dengan air bertekanan tinggi yang langsung mengenai klakson",
+          "Pastikan sambungan kabel selalu kencang dan bersih"
+        ],
+        "darurat": [
+          "Berkendara lebih defensif dan waspada karena tidak bisa memberi peringatan suara",
+          "Segera perbaiki untuk keselamatan"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "title": "Transmisi Matic Jedug atau Kasar",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi perpindahan gigi pada transmisi otomatis yang terasa menghentak atau kasar.",
+      "image": "https://images.unsplash.com/photo-1594741355679-b841f48d3c09?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level dan kualitas oli transmisi. Ganti jika sudah kotor atau waktunya ganti",
+        "Lakukan reset ECU atau TCU (Transmission Control Unit)",
+        "Periksa solenoid transmisi yang mungkin kotor atau rusak",
+        "Lakukan kuras oli transmisi (flushing) untuk membersihkan kotoran di dalam sistem",
+        "Periksa engine mounting dan transmission mounting yang mungkin rusak"
+      ],
+      "batas_aman": {
+        "kualitas_oli": "Oli transmisi yang buruk dapat merusak komponen internal",
+        "pola_berkendara": "Hindari akselerasi kasar yang membebani transmisi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli transmisi matic secara rutin (setiap 20.000 - 40.000 km)",
+          "Gunakan oli transmisi yang sesuai dengan spesifikasi pabrikan",
+          "Hindari menahan posisi di 'D' saat berhenti lama di tanjakan, gunakan rem"
+        ],
+        "darurat": [
+          "Jika hentakan sangat kasar, hindari penggunaan mobil untuk mencegah kerusakan lebih parah",
+          "Bawa ke bengkel spesialis transmisi matic"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "title": "Aki Motor Cepat Tekor",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Menganalisis penyebab baterai (aki) motor yang sering habis daya padahal baru diganti.",
+      "image": "https://images.unsplash.com/photo-1628176240035-75702b0e6f61?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sistem pengisian: cek tegangan dari kiprok/regulator saat mesin menyala (ideal 13.5V - 14.5V)",
+        "Periksa spul (generator), apakah ada yang gosong atau putus",
+        "Cari kebocoran arus: matikan motor, lepas terminal negatif aki, lalu ukur arus dengan multimeter (seharusnya mendekati nol)",
+        "Periksa apakah ada aksesoris kelistrikan tambahan yang membebani aki",
+        "Pastikan tipe aki yang digunakan sesuai dengan kebutuhan motor"
+      ],
+      "batas_aman": {
+        "tegangan_pengisian": "Di bawah 13V berarti tidak ada pengisian, di atas 15V berarti overcharge (merusak aki)",
+        "kabel_bodi": "Pastikan tidak ada kabel yang terkelupas dan menempel ke rangka"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Panaskan motor secara rutin agar aki terisi",
+          "Batasi penggunaan aksesoris kelistrikan yang berlebihan",
+          "Periksa sistem kelistrikan secara berkala"
+        ],
+        "darurat": [
+          "Jika motor mogok, coba starter engkol jika ada",
+          "Bawa ke bengkel untuk pemeriksaan sistem pengisian"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "title": "Lampu Depan Mobil Menguning atau Buram",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Cara mengembalikan kejernihan mika lampu depan yang kusam, menguning, atau berkerak.",
+      "image": "https://images.unsplash.com/photo-1605057039498-634633781213?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cuci bersih permukaan lampu",
+        "Lakukan pengamplasan basah (wet sanding) secara bertahap, mulai dari amplas kasar (misal 1000) hingga sangat halus (misal 2000 atau 3000)",
+        "Lakukan pemolesan (polishing) dengan rubbing compound untuk menghilangkan bekas amplas",
+        "Lanjutkan dengan polish untuk mengembalikan kilau dan kejernihan",
+        "Lapisi dengan UV coating atau nano ceramic untuk proteksi jangka panjang"
+      ],
+      "batas_aman": {
+        "visibilitas_malam": "Lampu yang buram mengurangi intensitas cahaya dan jarak pandang di malam hari",
+        "keselamatan": "Pencahayaan yang baik sangat krusial untuk keselamatan berkendara malam"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Parkir di tempat teduh untuk mengurangi paparan sinar UV",
+          "Rutin mencuci lampu dari kotoran",
+          "Aplikasikan wax atau pelindung cat pada lampu saat memoles bodi"
+        ],
+        "darurat": [
+          "Gunakan lampu high beam dengan bijak jika lampu utama sangat redup (perhatikan pengendara lain)",
+          "Hindari berkendara malam hari di jalan tanpa penerangan jika kondisi parah"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "title": "Gas Motor Seret atau Tidak Mau Kembali",
+      "topic": "Masalah Kontrol",
+      "vehicle_type": "motor",
+      "description": "Mengatasi handle gas motor yang terasa berat, macet, atau tidak mau kembali ke posisi idle.",
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lumasi kabel gas dengan pelumas khusus kabel",
+        "Periksa jalur kabel gas, pastikan tidak ada yang terjepit atau tertekuk tajam",
+        "Buka dan bersihkan selongsong gas (throttle tube) dan bagian dalam rumahnya (saklar kanan)",
+        "Periksa bagian skep di karburator atau throttle body, mungkin kotor atau macet",
+        "Ganti kabel gas jika sudah berkarat atau serabutnya putus"
+      ],
+      "batas_aman": {
+        "risiko_fatal": "Gas yang tidak mau kembali sangat berbahaya karena motor akan terus melaju tak terkendali",
+        "tindakan_refleks": "Harus tahu cara mematikan mesin dengan cepat jika ini terjadi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin melumasi kabel gas",
+          "Periksa kondisi gas setiap sebelum berkendara",
+          "Jaga kebersihan area karburator/throttle body"
+        ],
+        "darurat": [
+          "SEGERA tarik tuas kopling (untuk motor manual) untuk memutuskan tenaga",
+          "Matikan mesin dengan menggunakan kunci kontak atau engine cut-off switch",
+          "Gunakan rem untuk menghentikan motor. JANGAN PANIK."
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "title": "Motor Brebet Saat Digas",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "motor",
+      "description": "Analisis penyebab motor yang tersendat atau 'batuk-batuk' saat berakselerasi.",
+      "image": "https://images.unsplash.com/photo-1590272856633-9a3d4d36b8e3?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa busi, mungkin kotor, celahnya tidak pas, atau sudah lemah",
+        "Bersihkan filter udara",
+        "Untuk motor karburator: bersihkan karburator dari kotoran atau air",
+        "Untuk motor injeksi: bersihkan injektor, periksa tekanan fuel pump",
+        "Periksa koil dan cop busi, mungkin ada kebocoran arus"
+      ],
+      "batas_aman": {
+        "stabilitas_tenaga": "Brebet membuat tenaga tidak stabil dan berbahaya saat menyalip",
+        "konsumsi_bbm": "Biasanya menandakan pembakaran tidak sempurna dan boros bahan bakar"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan servis dan tune-up secara rutin",
+          "Gunakan bahan bakar berkualitas baik",
+          "Ganti busi dan filter udara sesuai jadwal"
+        ],
+        "darurat": [
+          "Hindari akselerasi mendadak, buka gas secara perlahan",
+          "Jika parah, menepi dan periksa kondisi busi"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "title": "Van Belt Mobil Berdecit",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi bunyi decitan yang mengganggu dari area mesin, terutama saat start pagi atau saat AC menyala.",
+      "image": "https://images.unsplash.com/photo-1627993093954-46a96a77412f?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa ketegangan van belt (drive belt), setel ulang jika kendor",
+        "Periksa kondisi fisik belt, ganti jika sudah retak-retak, getas, atau aus",
+        "Semprotkan belt dressing sebagai solusi sementara (tidak disarankan untuk jangka panjang)",
+        "Periksa puli-puli (pulley) dan tensioner, mungkin ada yang tidak sejajar atau bearingnya rusak",
+        "Pastikan belt tidak terkena tumpahan oli atau cairan lain"
+      ],
+      "batas_aman": {
+        "fungsi_komponen": "Van belt memutar komponen vital seperti altenator, pompa air, dan kompresor AC",
+        "risiko_putus": "Jika belt putus, mobil bisa overheat atau mogok karena aki tidak terisi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti van belt sesuai jadwal yang direkomendasikan (biasanya sekitar 40.000 km)",
+          "Gunakan belt dengan kualitas yang baik"
+        ],
+        "darurat": [
+          "Bunyi decit biasanya tidak langsung berbahaya, namun merupakan peringatan",
+          "Jika bunyi sangat keras atau belt terlihat longgar, segera periksakan"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "title": "Cara Jumper Aki Mobil yang Benar",
+      "topic": "Pengetahuan Dasar",
+      "vehicle_type": "mobil",
+      "description": "Panduan langkah-demi-langkah yang aman untuk menghidupkan mobil dengan aki lemah menggunakan bantuan mobil lain.",
+      "image": "https://images.unsplash.com/photo-1621899953495-15a4a37f53f9?w=400&h=300&fit=crop",
+      "solusi": [
+        "Posisikan kedua mobil berdekatan tapi tidak bersentuhan",
+        "Matikan semua kelistrikan di kedua mobil",
+        "Hubungkan klem MERAH (+) ke terminal POSITIF aki yang lemah",
+        "Hubungkan klem MERAH (+) lainnya ke terminal POSITIF aki donor",
+        "Hubungkan klem HITAM (-) ke terminal NEGATIF aki donor",
+        "Hubungkan klem HITAM (-) terakhir ke bagian LOGAM TEBAL (ground) di blok mesin mobil yang akinya lemah, JAUH dari aki",
+        "Nyalakan mesin mobil donor selama beberapa menit",
+        "Coba nyalakan mesin mobil yang akinya lemah",
+        "Lepas kabel dengan urutan terbalik"
+      ],
+      "batas_aman": {
+        "risiko_ledakan": "Jangan hubungkan klem hitam terakhir ke terminal negatif aki lemah, bisa memicu ledakan gas hidrogen",
+        "korsleting": "Pastikan klem merah dan hitam tidak saling bersentuhan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Selalu sediakan kabel jumper berkualitas baik di mobil",
+          "Rawat aki agar tidak mudah tekor"
+        ],
+        "darurat": [
+          "Gunakan kacamata pengaman jika ada",
+          "Jika tidak yakin, panggil bantuan profesional"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "title": "Indikator Oli Mesin Menyala",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Tindakan kritis yang harus dilakukan saat lampu indikator tekanan oli (corong minyak) menyala.",
+      "image": "https://images.unsplash.com/photo-1616787880720-2a8d34c5b364?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab: level oli sangat rendah, tekanan oli turun, pompa oli rusak, atau sensor tekanan oli rusak",
+        "Langkah pertama dan utama: SEGERA menepi di tempat aman dan matikan mesin",
+        "Tunggu beberapa menit, lalu periksa level oli pada dipstick",
+        "Jika level oli kurang, tambahkan oli yang sesuai",
+        "Jika level oli cukup, masalah kemungkinan ada pada tekanan oli. JANGAN nyalakan mesin."
+      ],
+      "batas_aman": {
+        "risiko_fatal_mesin": "Mengemudi dengan indikator oli menyala dapat menyebabkan kerusakan mesin parah dan permanen dalam hitungan menit",
+        "tekanan_oli": "Lebih penting daripada volume oli, tekanan memastikan oli mencapai semua bagian mesin"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa level oli mesin (misal setiap 2 minggu)",
+          "Ganti oli dan filter oli secara teratur",
+          "Gunakan oli dengan viskositas yang direkomendasikan"
+        ],
+        "darurat": [
+          "JANGAN PERNAH melanjutkan perjalanan jika lampu indikator oli menyala, meskipun hanya berkedip",
+          "Hubungi layanan towing untuk membawa mobil ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "title": "Setir Mobil Terasa Berat",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Mendiagnosis penyebab kemudi yang menjadi lebih berat dari biasanya, terutama pada mobil dengan power steering.",
+      "image": "https://images.unsplash.com/photo-1574151631557-19a90a2a51f0?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk power steering hidrolik: Periksa level minyak power steering, tambahkan jika kurang",
+        "Periksa kebocoran pada selang, pompa, atau rack steer",
+        "Periksa kondisi dan ketegangan van belt yang memutar pompa power steering",
+        "Untuk Electric Power Steering (EPS): Periksa sekring EPS, cek apakah ada lampu indikator EPS menyala",
+        "Periksa tekanan angin ban, ban yang kempis membuat setir lebih berat"
+      ],
+      "batas_aman": {
+        "kontrol": "Setir yang berat mengurangi kecepatan reaksi dan membuat manuver parkir menjadi sulit",
+        "indikator_eps": "Jika lampu EPS menyala, sistem bantuan elektrik tidak berfungsi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa level minyak power steering",
+          "Jangan memutar setir hingga mentok dan menahannya terlalu lama",
+          "Jaga kesehatan aki untuk mobil dengan EPS"
+        ],
+        "darurat": [
+          "Mobil masih bisa dikemudikan meskipun setir berat, namun butuh tenaga ekstra",
+          "Berkendara perlahan dan segera periksakan ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "title": "Oli Shock Depan Motor Bocor",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "motor",
+      "description": "Mengenali tanda-tanda kebocoran oli pada suspensi depan motor dan cara mengatasinya.",
+      "image": "https://images.unsplash.com/photo-1628176240035-75702b0e6f61?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab utama adalah seal debu dan seal oli shock yang sudah getas atau sobek",
+        "Penyebab lain adalah as (batang) shock yang baret atau bengkok",
+        "Perbaikan: Ganti seal oli dan seal debu (sebaiknya sepasang kiri-kanan)",
+        "Ganti oli shock dengan takaran yang sesuai rekomendasi pabrikan",
+        "Jika as shock baret, harus diganti atau diperbaiki di tukang bubut"
+      ],
+      "batas_aman": {
+        "efek_redaman": "Kebocoran oli menghilangkan fungsi redaman, motor terasa memantul dan tidak stabil",
+        "risiko_rem": "Oli yang bocor bisa menetes ke piringan cakram atau kampas rem, menyebabkan rem blong"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menghantam lubang dengan keras",
+          "Bersihkan area as shock dari kotoran yang bisa merusak seal",
+          "Ganti oli shock secara rutin (setiap 20.000 km)"
+        ],
+        "darurat": [
+          "Jika kebocoran parah dan mengenai rem, JANGAN gunakan motor",
+          "Segera bersihkan piringan cakram dan kampas rem dengan brake cleaner, lalu bawa ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "title": "Lampu Rem Motor Menyala Terus",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Mengatasi masalah lampu rem belakang yang tetap menyala meskipun tuas atau pedal rem tidak ditekan.",
+      "image": "https://images.unsplash.com/photo-1558980664-3a031cf672c5?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa switch rem depan di handle rem, mungkin macet atau kotor. Semprot dengan contact cleaner",
+        "Periksa switch rem belakang dekat pedal rem, mungkin posisinya salah atau per-nya tidak kembali dengan baik. Setel ulang posisinya",
+        "Periksa apakah ada korsleting pada kabel-kabel lampu belakang",
+        "Untuk motor baru, kadang setelan switch rem terlalu sensitif"
+      ],
+      "batas_aman": {
+        "komunikasi_pengendara": "Pengendara di belakang tidak tahu kapan Anda benar-benar mengerem, ini sangat berbahaya",
+        "aki_tekor": "Lampu yang menyala terus akan menguras aki"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa fungsi lampu-lampu saat akan berkendara",
+          "Hati-hati saat mencuci agar air tidak masuk ke switch rem"
+        ],
+        "darurat": [
+          "Jika tidak bisa diperbaiki di tempat, lepas sementara bohlam lampu rem atau sekringnya untuk menghindari kebingungan pengendara lain",
+          "Gunakan isyarat tangan untuk mengerem jika perlu dan segera ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "title": "Mesin Motor Cepat Panas (Overheat)",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "motor",
+      "description": "Mendeteksi penyebab mesin motor yang suhunya naik berlebihan dan cara menanganinya.",
+      "image": "https://images.unsplash.com/photo-1616790292782-9903b4166f28?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa level oli mesin, oli yang kurang menyebabkan gesekan berlebih",
+        "Untuk motor berpendingin cairan: periksa level air radiator, kipas radiator, dan kemungkinan kebocoran",
+        "Setelan klep yang terlalu rapat bisa menyebabkan mesin panas",
+        "Campuran bahan bakar yang terlalu 'kering' (miskin) bisa meningkatkan suhu mesin",
+        "Jalur knalpot yang tersumbat bisa menghambat pembuangan panas"
+      ],
+      "batas_aman": {
+        "performa_turun": "Mesin yang overheat akan kehilangan tenaga secara signifikan",
+        "kerusakan_internal": "Panas berlebih dapat merusak piston, silinder, dan komponen lainnya (nge-jim)"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan oli yang sesuai dan ganti secara rutin",
+          "Periksa air radiator secara berkala",
+          "Lakukan servis dan tune-up sesuai jadwal",
+          "Bersihkan sirip-sirip pendingin udara dari kotoran"
+        ],
+        "darurat": [
+          "Jika mesin terasa sangat panas atau kehilangan tenaga, segera menepi dan matikan mesin",
+          "Biarkan mesin dingin secara alami selama 15-30 menit sebelum melanjutkan perjalanan",
+          "Periksakan ke bengkel jika sering terjadi"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "title": "Karburator Banjir",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "motor",
+      "description": "Mengatasi bensin yang terus mengalir keluar dari selang pembuangan karburator.",
+      "image": "https://images.unsplash.com/photo-1627883733021-a5823901b559?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab utama: kotoran mengganjal jarum pelampung (needle valve)",
+        "Penyebab lain: pelampung bocor atau setelan pelampung terlalu tinggi",
+        "Solusi: Ketuk-ketuk badan karburator dengan gagang obeng untuk mencoba melepaskan kotoran",
+        "Tutup kran bensin, buang sisa bensin di mangkok karburator, lalu buka lagi krannya",
+        "Jika masih banjir, bongkar dan bersihkan karburator, terutama bagian jarum pelampung dan dudukannya"
+      ],
+      "batas_aman": {
+        "risiko_kebakaran": "Bensin yang meluap sangat mudah terbakar jika terkena panas mesin atau percikan api",
+        "boros_bbm": "Bahan bakar akan terbuang sia-sia"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan filter bensin pada selang bahan bakar",
+          "Rutin membersihkan tangki bensin dari endapan dan karat",
+          "Rutin membersihkan karburator"
+        ],
+        "darurat": [
+          "Segera tutup kran bensin dari tangki",
+          "Jangan menyalakan mesin",
+          "Jauhkan dari sumber api"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "title": "Jamur pada Kaca Kendaraan",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "kendaraan",
+      "description": "Cara efektif menghilangkan noda bercak air (waterspot) atau jamur yang membandel pada kaca.",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7185743?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cuci bersih kaca dari debu dan kotoran",
+        "Gunakan produk glass polish atau waterspot remover khusus kaca",
+        "Aplikasikan produk pada applicator pad, gosok dengan gerakan memutar pada area yang berjamur",
+        "Segera lap sisa produk dengan kain microfiber bersih hingga kaca jernih",
+        "Untuk jamur ringan, kadang bisa dihilangkan dengan cuka putih yang dicampur air"
+      ],
+      "batas_aman": {
+        "visibilitas_buruk": "Jamur kaca sangat mengganggu pandangan, terutama saat malam hari atau hujan",
+        "penggunaan_obat": "Jangan biarkan obat jamur mengenai cat atau karet, dan jangan gunakan di bawah terik matahari"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Segera keringkan kaca setelah terkena hujan atau setelah mencuci",
+          "Jangan menggunakan air tanah/sumur yang kandungan mineralnya tinggi untuk mencuci",
+          "Aplikasikan water repellent (efek daun talas) pada kaca"
+        ],
+        "darurat": [
+          "Jika pandangan sangat terganggu saat hujan, nyalakan wiper terus menerus",
+          "Fokuskan pandangan dan kurangi kecepatan"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "title": "Kiprok Motor Lemah atau Rusak",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Gejala dan akibat dari regulator/rectifier (kiprok) yang tidak berfungsi dengan baik.",
+      "image": "https://images.unsplash.com/photo-1629897149301-b5517f8b8970?w=400&h=300&fit=crop",
+      "solusi": [
+        "Gejala: aki sering tekor (kiprok tidak mengisi), atau bohlam lampu sering putus (kiprok overcharge)",
+        "Lakukan pengecekan tegangan aki saat mesin menyala (RPM menengah). Normalnya 13.5V - 14.5V",
+        "Jika tegangan kurang dari 13V, kiprok tidak mengisi. Jika lebih dari 15V, kiprok overcharge",
+        "Periksa konektor/soket kiprok, pastikan bersih dan tidak meleleh",
+        "Jika hasil tes tidak normal, ganti kiprok dengan yang baru dan orisinal"
+      ],
+      "batas_aman": {
+        "sistem_kelistrikan": "Kiprok adalah jantung sistem kelistrikan, kerusakannya merembet ke aki dan komponen lain",
+        "tegangan_output": "Tegangan yang tidak stabil dapat merusak ECU pada motor injeksi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan aki dan bohlam dengan spesifikasi standar",
+          "Hindari modifikasi kelistrikan yang berlebihan",
+          "Jaga kebersihan soket-soket kelistrikan"
+        ],
+        "darurat": [
+          "Jika aki tekor, motor bisa mogok. Jika overcharge, semua lampu bisa putus di jalan",
+          "Segera ganti jika terdeteksi gejala kerusakan"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "title": "Air Menetes dari Bawah Dashboard Mobil",
+      "topic": "Masalah AC",
+      "vehicle_type": "mobil",
+      "description": "Mengidentifikasi penyebab tetesan air di dalam kabin, terutama di area kaki penumpang depan.",
+      "image": "https://images.unsplash.com/photo-1520340356557-23423b7b2829?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah selang pembuangan kondensasi AC yang tersumbat atau terlepas",
+        "Cari selang pembuangan di bawah mobil (biasanya dekat firewall), coba bersihkan dengan lidi atau kawat lentur",
+        "Periksa di dalam kabin, raba area evaporator (biasanya di belakang laci), pastikan selang pembuangan terpasang benar",
+        "Jika airnya berwarna dan berbau manis (coolant), kemungkinan ada kebocoran pada heater core"
+      ],
+      "batas_aman": {
+        "bau_apek": "Air yang tergenang di karpet akan menyebabkan bau apek dan jamur",
+        "kerusakan_elektronik": "Tetesan air dapat merusak komponen elektronik di bawah dashboard seperti ECU"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan filter kabin",
+          "Saat servis AC, minta mekanik untuk memeriksa jalur pembuangan"
+        ],
+        "darurat": [
+          "Matikan AC untuk menghentikan produksi air kondensasi",
+          "Letakkan kain atau wadah untuk menampung tetesan",
+          "Jika yang bocor adalah coolant (heater core), segera ke bengkel karena ini berhubungan dengan sistem pendingin mesin"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "title": "Pengecekan Kendaraan Sebelum Perjalanan Jauh",
+      "topic": "Pengetahuan Dasar",
+      "vehicle_type": "kendaraan",
+      "description": "Daftar periksa (checklist) komponen-komponen vital yang harus diperiksa sebelum melakukan perjalanan jauh.",
+      "image": "https://images.unsplash.com/photo-1532931481476-a2d9a6c90c7d?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cairan: Periksa level oli mesin, air radiator, minyak rem, minyak power steering, dan air wiper",
+        "Ban: Periksa tekanan angin (termasuk ban serep), dan periksa kondisi telapak serta dinding ban dari benjolan atau sobekan",
+        "Rem: Pastikan rem tidak berbunyi, tidak terasa dalam, dan pakem",
+        "Lampu: Cek fungsi semua lampu (utama, senja, rem, sein, mundur, hazard)",
+        "Kaki-kaki: Dengarkan apakah ada bunyi aneh dari suspensi saat melewati jalan tidak rata",
+        "Wiper: Pastikan karet wiper masih bagus dan air wiper menyemprot dengan baik"
+      ],
+      "batas_aman": {
+        "keselamatan": "Pengecekan menyeluruh adalah kunci utama untuk mencegah masalah di tengah perjalanan",
+        "perlengkapan": "Pastikan dongkrak, kunci roda, dan segitiga pengaman ada di tempatnya"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan servis rutin jauh-jauh hari sebelum jadwal keberangkatan",
+          "Buat daftar periksa dan centang satu per satu"
+        ],
+        "darurat": [
+          "Simpan nomor telepon layanan darurat jalan tol atau jasa towing",
+          "Bawa tool kit dasar dan P3K"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "title": "Busi Cepat Mati atau Berkerak Hitam",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "kendaraan",
+      "description": "Menganalisa penyebab busi yang cepat aus, mati, atau tertutup kerak karbon hitam.",
+      "image": "https://images.unsplash.com/photo-1621915934994-a9a7a149182a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Kerak hitam kering (jelaga): menandakan campuran bahan bakar terlalu kaya (boros). Setel ulang karburator atau periksa sistem injeksi",
+        "Kerak hitam basah (berminyak): menandakan oli ikut terbakar. Periksa ring piston atau seal klep",
+        "Elektroda meleleh: menandakan mesin terlalu panas (overheating) atau oktan bensin terlalu rendah",
+        "Gunakan tipe busi yang sesuai (panas/dingin) dengan rekomendasi pabrikan",
+        "Periksa sistem pengapian (koil), pengapian yang lemah membuat pembakaran tidak sempurna"
+      ],
+      "batas_aman": {
+        "pembakaran_sempurna": "Warna busi yang ideal adalah coklat muda keabu-abuan",
+        "mogok": "Busi yang mati total akan menyebabkan mesin pincang atau mogok"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan tune-up secara rutin untuk memastikan campuran bbm dan udara ideal",
+          "Gunakan bahan bakar dengan oktan yang sesuai",
+          "Ganti busi secara berkala (setiap 20.000 - 40.000 km)"
+        ],
+        "darurat": [
+          "Selalu bawa busi cadangan dan kunci busi",
+          "Jika mogok, coba bersihkan busi dari kerak sebagai pertolongan pertama"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "title": "Sunroof Mobil Macet atau Bocor",
+      "topic": "Masalah Interior",
+      "vehicle_type": "mobil",
+      "description": "Solusi untuk sunroof atau moonroof yang tidak bisa dibuka/ditutup dengan lancar atau menyebabkan rembesan air ke kabin.",
+      "image": "https://images.unsplash.com/photo-1616422285532-4b26ea656839?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk macet: Bersihkan rel sunroof dari debu dan kotoran, lalu lumasi dengan gemuk (grease) khusus",
+        "Periksa motor penggerak dan kabelnya, mungkin ada masalah kelistrikan atau sekring putus",
+        "Untuk bocor: Periksa saluran pembuangan air di sudut-sudut sunroof, kemungkinan tersumbat. Bersihkan dengan selang udara bertekanan rendah atau kawat fleksibel",
+        "Periksa kondisi karet seal sunroof, mungkin sudah getas atau sobek"
+      ],
+      "batas_aman": {
+        "kebocoran": "Air yang masuk dapat merusak plafon kabin dan komponen elektronik",
+        "mekanisme": "Jangan paksa sunroof yang macet karena bisa merusak rel atau motornya"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan rel dan saluran air sunroof (misal setiap 6 bulan)",
+          "Lumasi kembali rel secara berkala",
+          "Buka-tutup sunroof secara periodik agar mekanismenya tidak kaku"
+        ],
+        "darurat": [
+          "Jika macet dalam keadaan terbuka, cari tuas atau kunci L darurat untuk menutupnya secara manual (lihat buku manual)",
+          "Jika bocor, tutup sementara dengan lakban tahan air dari luar hingga sampai ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "title": "Velg Motor Speleng atau Bengkok",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "motor",
+      "description": "Mengatasi velg yang tidak lurus (speleng), menyebabkan getaran dan handling tidak stabil.",
+      "image": "https://images.unsplash.com/photo-1590272856633-9a3d4d36b8e3?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab utama adalah menghantam lubang dengan keras",
+        "Periksa putaran roda (dengan standar tengah), lihat apakah ada gerakan ke kiri-kanan (speleng) atau naik-turun (peyang)",
+        "Untuk velg jari-jari: bisa diperbaiki dengan menyetel ulang ketegangan jari-jari di tukang stel velg",
+        "Untuk velg racing (casting wheel): bisa diperbaiki dengan cara di-press di bengkel spesialis. Namun jika retak parah, harus diganti",
+        "Periksa juga kondisi laher (bearing) roda, mungkin sudah oblak"
+      ],
+      "batas_aman": {
+        "getaran": "Velg speleng menyebabkan getaran yang tidak nyaman dan membuat komponen lain cepat aus",
+        "stabilitas": "Handling menjadi tidak stabil dan berbahaya, terutama di kecepatan tinggi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menghantam lubang, terutama dengan kecepatan tinggi",
+          "Jaga tekanan angin ban yang ideal untuk membantu meredam benturan"
+        ],
+        "darurat": [
+          "Jika getaran sangat terasa setelah menghantam lubang, kurangi kecepatan",
+          "Segera periksakan ke bengkel press velg atau stel velg"
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "title": "Mobil Mengeluarkan Asap Biru",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Asap kebiruan dari knalpot menandakan adanya oli mesin yang ikut terbakar di ruang bakar.",
+      "image": "https://images.unsplash.com/photo-1615822360690-25a8084a96c3?w=400&h=300&fit=crop",
+      "solusi": [
+        "Jika asap biru keluar saat start awal atau setelah idle lama: kemungkinan besar seal klep (valve seal) sudah keras atau aus",
+        "Jika asap biru keluar terus menerus terutama saat akselerasi: kemungkinan besar ring piston sudah lemah atau aus",
+        "Periksa PCV (Positive Crankcase Ventilation) valve, jika tersumbat bisa menyebabkan tekanan berlebih dan oli masuk ke intake",
+        "Perbaikan membutuhkan turun mesin (setidaknya setengah) untuk mengganti komponen tersebut"
+      ],
+      "batas_aman": {
+        "konsumsi_oli": "Level oli mesin akan berkurang dengan cepat, berisiko habis jika tidak dipantau",
+        "kerusakan_lanjut": "Dapat merusak busi dan catalytic converter dalam jangka panjang"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli secara rutin dan gunakan oli berkualitas",
+          "Hindari mesin mengalami overheat"
+        ],
+        "darurat": [
+          "Rutin periksa level oli pada dipstick, tambahkan jika perlu",
+          "Bawa oli cadangan saat bepergian",
+          "Rencanakan perbaikan di bengkel secepatnya"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "title": "Tarikan Motor Matic Terasa Berat",
+      "topic": "Masalah CVT",
+      "vehicle_type": "motor",
+      "description": "Menganalisa penyebab akselerasi motor matic yang terasa lambat atau tidak bertenaga.",
+      "image": "https://images.unsplash.com/photo-1629525152865-3e2844249053?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi roller, jika sudah peyang atau aus akan menghambat pergerakan puli depan",
+        "Periksa kondisi V-belt, jika sudah getas atau kendor bisa terjadi selip",
+        "Bersihkan area CVT dari debu dan kotoran. Debu bisa membuat kampas ganda selip",
+        "Periksa per CVT (pegas puli belakang), jika sudah terlalu lembek, akselerasi bawah akan berat",
+        "Pastikan gemuk (grease) pada puli belakang tidak kering"
+      ],
+      "batas_aman": {
+        "efisiensi": "Akselerasi yang berat biasanya diikuti dengan konsumsi BBM yang lebih boros",
+        "v-belt_putus": "V-belt yang sudah retak-retak berisiko putus di jalan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan servis CVT secara rutin (setiap 4.000 - 8.000 km)",
+          "Ganti komponen CVT (V-belt, roller) sesuai jadwal pemakaian (biasanya sekitar 24.000 km)"
+        ],
+        "darurat": [
+          "Hindari akselerasi spontan",
+          "Jika tarikan sangat berat, segera periksakan CVT untuk mencegah V-belt putus"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "title": "Kabel Kopling Motor Putus",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "motor",
+      "description": "Tindakan darurat yang bisa dilakukan ketika kabel kopling motor sport/bebek putus di tengah jalan.",
+      "image": "https://images.unsplash.com/photo-1591783820251-68953185e78a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Menepi dengan aman menggunakan sisa laju motor dan rem",
+        "Jika harus melanjutkan perjalanan (tidak disarankan): nyalakan mesin dalam kondisi gigi netral",
+        "Dorong motor hingga sedikit berjalan, lalu masukkan gigi 1 dengan sedikit hentakan",
+        "Untuk memindahkan gigi (naik/turun) tanpa kopling: sesuaikan putaran mesin. Tutup sedikit gas saat akan menaikkan gigi, dan naikkan sedikit gas (blip) saat akan menurunkan gigi",
+        "Berhenti dengan membiarkan mesin mati saat mengerem di gigi 1 atau mencari posisi netral saat motor hampir berhenti"
+      ],
+      "batas_aman": {
+        "kerusakan_transmisi": "Memindahkan gigi tanpa kopling secara paksa dapat merusak gearbox dalam jangka panjang",
+        "keselamatan": "Sangat sulit dan berbahaya, terutama di lalu lintas padat atau tanjakan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lumasi kabel kopling secara rutin",
+          "Periksa kondisi kabel, jika sudah ada serabut yang putus, segera ganti",
+          "Gunakan kabel kopling orisinal"
+        ],
+        "darurat": [
+          "Cara terbaik adalah mendorong motor ke bengkel terdekat",
+          "Berkendara tanpa kopling hanya untuk kondisi super darurat dan jarak sangat dekat"
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "title": "Membersihkan Interior Kendaraan",
+      "topic": "Perawatan",
+      "vehicle_type": "kendaraan",
+      "description": "Langkah-langkah dasar untuk membersihkan bagian dalam (interior) mobil atau area dek motor.",
+      "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9e?w=400&h=300&fit=crop",
+      "solusi": [
+        "Keluarkan semua karpet dan sampah dari dalam kabin",
+        "Gunakan vacuum cleaner untuk menyedot debu dari jok, karpet dasar, dan sela-sela",
+        "Gunakan kuas kecil untuk membersihkan debu dari kisi-kisi AC dan panel instrumen",
+        "Lap permukaan dashboard, doortrim, dan plastik lainnya dengan kain microfiber dan cairan interior cleaner",
+        "Untuk jok kain: gunakan fabric cleaner. Untuk jok kulit: gunakan leather cleaner dan conditioner"
+      ],
+      "batas_aman": {
+        "jenis_cairan": "Gunakan produk pembersih yang sesuai dengan material (kain, kulit, plastik) untuk menghindari kerusakan",
+        "kelistrikan": "Hati-hati saat membersihkan area dekat tombol atau komponen elektronik"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jangan makan dan minum di dalam mobil",
+          "Sediakan tempat sampah kecil",
+          "Rutin membersihkan interior minimal sebulan sekali"
+        ],
+        "darurat": [
+          "Jika ada cairan tumpah, segera serap dengan kain atau tisu untuk mencegah noda permanen"
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "title": "Indikator Aki Mobil Menyala Saat Jalan",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "mobil",
+      "description": "Arti dan tindakan yang harus dilakukan ketika lampu indikator baterai/aki menyala saat mesin sudah hidup.",
+      "image": "https://images.unsplash.com/photo-1616787880720-2a8d34c5b364?w=400&h=300&fit=crop",
+      "solusi": [
+        "Indikator ini menandakan adanya masalah pada sistem pengisian (charging system), BUKAN masalah pada aki itu sendiri",
+        "Penyebab umum: van belt (drive belt) putus atau kendor, altenator (dinamo ampere) rusak, atau kabel putus",
+        "Saat lampu ini menyala, mobil berjalan sepenuhnya menggunakan sisa daya dari aki",
+        "SEGERA matikan semua beban listrik yang tidak perlu (AC, audio, lampu kabin)"
+      ],
+      "batas_aman": {
+        "jarak_tempuh": "Mobil hanya bisa berjalan sejauh sisa daya di aki, bisa beberapa kilometer atau kurang",
+        "risiko_mogok": "Mobil akan mogok total ketika daya aki habis"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa kondisi dan ketegangan van belt secara rutin",
+          "Lakukan pemeriksaan sistem pengisian saat servis berkala"
+        ],
+        "darurat": [
+          "Jangan matikan mesin jika tidak terpaksa, karena mungkin tidak bisa distarter lagi",
+          "Segera cari bengkel terdekat. Jika jarak jauh, lebih baik menepi dan panggil bantuan towing"
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "title": "Menghilangkan Bau Apek di Kabin Mobil",
+      "topic": "Masalah Bau",
+      "vehicle_type": "mobil",
+      "description": "Cara efektif untuk menghilangkan bau tidak sedap, lembab, atau apek dari dalam interior mobil.",
+      "image": "https://images.unsplash.com/photo-1542328682-93e8a7372b38?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cari sumber bau: periksa apakah ada sisa makanan, tumpahan minuman, atau karpet yang basah/lembab",
+        "Lakukan pembersihan interior menyeluruh (vacuum dan lap)",
+        "Jemur karpet dan keset di bawah terik matahari",
+        "Gunakan produk penghilang bau (odor eliminator), bukan sekedar pengharum ruangan",
+        "Letakkan penyerap lembab atau bubuk kopi di dalam kabin selama beberapa hari",
+        "Ganti filter AC kabin yang mungkin sudah kotor dan berjamur"
+      ],
+      "batas_aman": {
+        "kesehatan": "Bau apek biasanya disebabkan oleh jamur atau bakteri yang tidak baik untuk pernapasan",
+        "sumber_masalah": "Menutupi bau dengan parfum tidak akan menyelesaikan masalah"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jaga kebersihan interior dari sisa makanan",
+          "Segera keringkan bagian yang basah",
+          "Buka jendela sesekali untuk sirkulasi udara",
+          "Rutin ganti filter AC"
+        ],
+        "darurat": [
+          "Jika bau sangat menyengat, parkir di tempat aman dan buka semua pintu agar udara bersirkulasi"
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "title": "Perawatan Kendaraan Pasca Banjir",
+      "topic": "Perawatan",
+      "vehicle_type": "kendaraan",
+      "description": "Langkah-langkah penting yang harus dilakukan setelah mobil atau motor terendam banjir.",
+      "image": "https://images.unsplash.com/photo-1593463598317-53c82701e67e?w=400&h=300&fit=crop",
+      "solusi": [
+        "JANGAN langsung menyalakan mesin. Ini adalah aturan paling penting.",
+        "Lepas kabel aki untuk mencegah korsleting",
+        "Periksa level oli mesin. Jika warnanya seperti kopi susu, berarti air masuk ke mesin",
+        "Keluarkan semua air dari interior. Buka semua pintu, lepas karpet dan jok jika perlu untuk dijemur",
+        "Untuk mobil: kuras semua oli (mesin, transmisi, gardan) dan ganti dengan yang baru. Periksa filter udara",
+        "Untuk motor: Buka busi dan engkol perlahan untuk mengeluarkan air dari ruang bakar. Kuras oli."
+      ],
+      "batas_aman": {
+        "water_hammer": "Menyalakan mesin saat ada air di ruang bakar akan menyebabkan 'water hammer' yang bisa menghancurkan piston dan setang piston",
+        "kerusakan_elektronik": "ECU, sensor, dan modul elektronik sangat rentan rusak jika terkena air"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menerobos banjir yang ketinggiannya melebihi setengah roda"
+        ],
+        "darurat": [
+          "Jika tidak yakin, cara terbaik dan teraman adalah menggunakan jasa towing untuk membawa kendaraan ke bengkel terpercaya",
+          "Lakukan pembersihan dan penggantian cairan secepat mungkin untuk mencegah karat dan kerusakan permanen"
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "title": "Kaca Film Mobil Menggelembung",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Penyebab dan solusi untuk lapisan kaca film yang mulai menggelembung atau bergelembung udara.",
+      "image": "https://images.unsplash.com/photo-1616422285532-4b26ea656839?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab: kualitas kaca film yang buruk, usia pemakaian, atau pemasangan yang tidak sempurna",
+        "Untuk gelembung kecil baru: coba panaskan dengan hair dryer atau heat gun (jarak aman) dan tekan perlahan dengan kartu ATM yang dibungkus kain dari tengah ke luar",
+        "Untuk gelembung besar atau banyak: tidak bisa diperbaiki, satu-satunya solusi adalah mengganti total kaca film tersebut",
+        "Proses penggantian melibatkan pelepasan lem lama yang memakan waktu dan perlu keahlian khusus agar tidak merusak elemen defogger kaca belakang"
+      ],
+      "batas_aman": {
+        "visibilitas": "Gelembung dapat mengganggu dan membiaskan pandangan, terutama di malam hari",
+        "estetika": "Sangat merusak penampilan mobil"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan kaca film dari merek berkualitas dan bergaransi",
+          "Pasang kaca film di instalatur profesional",
+          "Jangan membuka-tutup jendela selama 2-3 hari setelah pemasangan"
+        ],
+        "darurat": [
+          "Tidak ada tindakan darurat, namun jika gelembung sangat mengganggu pandangan, pertimbangkan untuk melepasnya atau menggantinya segera"
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "title": "Suspensi Mobil Terlalu Keras (Bantingannya Keras)",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi suspensi yang terasa kaku dan tidak nyaman, membuat guncangan sangat terasa di kabin.",
+      "image": "https://images.unsplash.com/photo-1631484277492-302a9b3e9a44?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa tekanan angin ban. Tekanan yang terlalu tinggi membuat bantingan terasa keras",
+        "Periksa kondisi shock absorber. Shock yang macet atau tidak berfungsi bisa menyebabkan suspensi kaku",
+        "Pastikan ukuran ban dan velg sesuai dengan rekomendasi pabrikan. Profil ban yang terlalu tipis akan mengurangi kenyamanan",
+        "Periksa kondisi bushing-bushing suspensi, jika sudah getas dan keras bisa mengurangi fleksibilitas",
+        "Jika baru saja mengganti per, mungkin per pengganti memiliki karakter yang lebih keras"
+      ],
+      "batas_aman": {
+        "kenyamanan": "Sangat mengurangi kenyamanan berkendara, terutama di jalan yang tidak rata",
+        "keausan_komponen": "Suspensi yang terlalu kaku dapat memberi beban lebih pada komponen sasis dan interior"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan tekanan angin ban sesuai rekomendasi di pilar pintu mobil",
+          "Gunakan komponen suspensi orisinal atau yang memiliki karakter setara",
+          "Periksa kaki-kaki secara rutin"
+        ],
+        "darurat": [
+          "Kurangi kecepatan saat melewati jalan rusak atau polisi tidur untuk mengurangi guncangan"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "title": "Kunci Kontak Motor Macet",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Solusi ketika anak kunci tidak bisa dimasukkan, diputar, atau dicabut dari rumah kunci kontak motor.",
+      "image": "https://images.unsplash.com/photo-1628176240035-75702b0e6f61?w=400&h=300&fit=crop",
+      "solusi": [
+        "Semprotkan cairan pelumas penetran (seperti WD-40) ke dalam lubang kunci, lalu coba masukkan dan keluarkan anak kunci beberapa kali",
+        "Pastikan anak kunci tidak bengkok atau aus. Coba gunakan kunci cadangan",
+        "Periksa apakah ada kotoran atau benda asing di dalam lubang kunci",
+        "Goyangkan setang ke kiri dan kanan sambil memutar kunci, mungkin kunci setang dalam posisi menekan mekanisme kunci",
+        "Jika rumah kunci sudah aus atau rusak parah, perlu diganti satu set"
+      ],
+      "batas_aman": {
+        "jangan_dipaksa": "Memaksa memutar kunci yang macet bisa menyebabkan anak kunci patah di dalam",
+        "keamanan": "Kunci kontak yang rusak mengurangi keamanan motor"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lumasi lubang kunci secara berkala",
+          "Gunakan gantungan kunci yang tidak terlalu berat",
+          "Tutup lubang kunci (jika ada penutup magnet) untuk mencegah debu dan air masuk"
+        ],
+        "darurat": [
+          "Jangan panik. Coba semua solusi dengan tenang. Jika kunci patah di dalam, panggil ahli kunci"
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "title": "CDI Motor Rusak",
+      "topic": "Masalah Pengapian",
+      "vehicle_type": "motor",
+      "description": "Mengenali gejala kerusakan pada CDI (Capacitor Discharge Ignition) yang merupakan otak sistem pengapian motor karburator.",
+      "image": "https://images.unsplash.com/photo-1627883733021-a5823901b559?w=400&h=300&fit=crop",
+      "solusi": [
+        "Gejala: mesin sulit hidup, brebet di putaran atas, atau mati total dan tidak ada percikan api di busi sama sekali",
+        "Pastikan komponen pengapian lain (busi, koil, spul, pulser) dalam kondisi baik sebelum menyalahkan CDI",
+        "Coba tukar dengan CDI motor lain yang sejenis untuk memastikan kerusakannya",
+        "Periksa soket dan kabel CDI, pastikan tidak ada yang kendor atau korosi",
+        "CDI adalah komponen elektronik yang tidak bisa diperbaiki, jika rusak harus diganti"
+      ],
+      "batas_aman": {
+        "pengapian_hilang": "CDI yang mati total akan membuat motor mogok seketika karena tidak ada pengapian",
+        "tipe_cdi": "Gunakan CDI yang sesuai dengan tipe motor, karena timing pengapiannya berbeda-beda"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Jaga sistem kelistrikan motor tetap stabil (kiprok harus sehat)",
+          "Hindari mencuci motor dengan air bertekanan yang diarahkan ke komponen elektronik"
+        ],
+        "darurat": [
+          "Jika motor mogok karena CDI mati, tidak ada solusi darurat di jalan. Harus diganti dengan yang baru."
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "title": "Speedometer Motor Mati Total",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Mengatasi panel speedometer (jarum dan digital) yang tidak berfungsi sama sekali.",
+      "image": "https://images.unsplash.com/photo-1620786311634-7a19c614917a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring utama dan sekring panel instrumen",
+        "Periksa kabel speedometer. Untuk tipe mekanis, periksa apakah kabelnya putus. Untuk tipe digital, periksa sensor kecepatan di roda depan atau gearbox",
+        "Periksa soket utama di belakang panel speedometer, mungkin kendor atau korosi",
+        "Pastikan aki memiliki tegangan yang cukup",
+        "Jika semua normal, kemungkinan ada kerusakan pada papan sirkuit (PCB) di dalam speedometer"
+      ],
+      "batas_aman": {
+        "informasi_hilang": "Kehilangan informasi kecepatan, jarak tempuh, dan indikator bahan bakar",
+        "keselamatan": "Sulit mengontrol kecepatan sesuai batas aman tanpa melihat speedometer"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari paparan air berlebihan pada panel speedometer",
+          "Jaga kelistrikan motor tetap stabil"
+        ],
+        "darurat": [
+          "Gunakan intuisi dari suara mesin dan laju kendaraan lain untuk memperkirakan kecepatan",
+          "Perkirakan jarak dan konsumsi bensin secara manual"
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "title": "Spion Motor Getar",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "motor",
+      "description": "Cara mengatasi kaca spion yang bergetar hebat saat motor berjalan, membuat pandangan ke belakang menjadi buram.",
+      "image": "https://images.unsplash.com/photo-1558981359-219d6364c9c8?w=400&h=300&fit=crop",
+      "solusi": [
+        "Kencangkan mur pengunci spion pada dudukannya di setang",
+        "Periksa mur penyetel pada gagang spion itu sendiri, kencangkan jika kendor",
+        "Jika getaran berasal dari mesin, periksa baut-baut mesin dan engine mounting, mungkin ada yang kendor",
+        "Beberapa motor memang memiliki getaran bawaan, bisa dikurangi dengan menggunakan jalu setang (balancer) yang lebih berat",
+        "Ganti spion dengan produk berkualitas yang lebih kokoh jika spion bawaan terlalu ringkih"
+      ],
+      "batas_aman": {
+        "visibilitas_belakang": "Spion yang bergetar membuat objek di belakang terlihat kabur dan sulit diidentifikasi",
+        "keselamatan": "Fungsi utama spion untuk memantau kondisi di belakang menjadi tidak efektif"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa kekencangan baut-baut pada motor",
+          "Gunakan spion standar atau aftermarket berkualitas"
+        ],
+        "darurat": [
+          "Jika harus melihat ke belakang, lakukan dengan lebih sering menoleh langsung (shoulder check) dengan tetap waspada ke depan"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "title": "Kopling Mobil Keras atau Berat",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "mobil",
+      "description": "Menganalisa penyebab pedal kopling yang membutuhkan tenaga ekstra untuk diinjak.",
+      "image": "https://images.unsplash.com/photo-1615907222533-96b6b83f0f35?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk kopling kabel: lumasi atau ganti kabel kopling yang sudah seret atau berkarat",
+        "Untuk kopling hidrolik: periksa minyak kopling, mungkin sudah kotor dan perlu diganti/di-bleeding",
+        "Penyebab paling umum adalah kampas kopling dan dekrup (matahari) yang sudah aus atau keras",
+        "Periksa release bearing (laher kopling), jika macet bisa membuat injakan terasa berat",
+        "Perbaikan seringkali membutuhkan penggantian satu set kopling"
+      ],
+      "batas_aman": {
+        "kelelahan": "Membuat kaki kiri cepat lelah dan pegal, terutama di kondisi lalu lintas macet",
+        "indikasi_aus": "Merupakan tanda bahwa komponen kopling akan segera habis masa pakainya"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan minyak kopling yang direkomendasikan dan ganti secara berkala",
+          "Hindari kebiasaan menginjak setengah kopling yang tidak perlu"
+        ],
+        "darurat": [
+          "Tidak ada tindakan darurat selain mempersiapkan diri untuk perbaikan/penggantian komponen kopling"
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "title": "Bagasi Hidrolik Mobil Lemah",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi pintu bagasi (tailgate) yang tidak mau terangkat atau tidak mau tertahan di atas dengan sendirinya.",
+      "image": "https://images.unsplash.com/photo-1618374597387-926f2f0a57e2?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebabnya adalah shock hidrolik (gas spring) bagasi yang sudah lemah atau kehilangan tekanan gasnya",
+        "Komponen ini tidak dapat diperbaiki atau diisi ulang gasnya",
+        "Satu-satunya solusi adalah menggantinya dengan yang baru",
+        "Pastikan membeli shock hidrolik dengan spesifikasi (terutama kekuatan tekanan dalam Newton) yang sama dengan aslinya",
+        "Penggantian biasanya mudah, hanya perlu melepas klip pengunci di kedua ujungnya"
+      ],
+      "batas_aman": {
+        "risiko_terjepit": "Pintu bagasi yang turun sendiri dapat menyebabkan cedera pada kepala atau tangan",
+        "kenyamanan": "Sangat merepotkan saat akan memasukkan atau mengeluarkan barang dari bagasi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menggantung beban pada pintu bagasi",
+          "Buka dan tutup pintu bagasi dengan wajar, jangan dibanting"
+        ],
+        "darurat": [
+          "Gunakan bantuan tongkat atau benda lain untuk menahan pintu bagasi saat terbuka",
+          "Selalu waspada saat berada di bawah pintu bagasi yang hidroliknya lemah"
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "title": "Memilih Oli Mesin yang Tepat",
+      "topic": "Pengetahuan Dasar",
+      "vehicle_type": "kendaraan",
+      "description": "Panduan dasar memahami kode dan memilih spesifikasi oli mesin yang sesuai untuk kendaraan Anda.",
+      "image": "https://images.unsplash.com/photo-1606578958344-a95a6397e593?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lihat buku manual kendaraan untuk rekomendasi spesifikasi oli dari pabrikan",
+        "Pahami kode viskositas SAE, contoh 10W-40. Angka sebelum 'W' (Winter) menunjukkan kekentalan saat dingin, angka setelahnya menunjukkan kekentalan saat panas. Ikuti rekomendasi pabrikan.",
+        "Pahami kode standar API (American Petroleum Institute), contoh API SN. Huruf kedua menunjukkan tingkatan kualitas, semakin jauh urutan abjadnya (misal SN lebih baru dari SL) maka semakin baik formulasinya.",
+        "Pilih antara oli mineral, semi-sintetik, atau full-sintetik. Sintetik menawarkan performa dan daya tahan yang lebih baik.",
+        "Untuk motor, perhatikan standar JASO (MA untuk kopling basah, MB untuk kopling kering/matic)."
+      ],
+      "batas_aman": {
+        "perlindungan_mesin": "Oli adalah darah bagi mesin. Oli yang salah dapat mempercepat keausan dan menyebabkan kerusakan",
+        "spesifikasi_pabrikan": "Rekomendasi pabrikan adalah patokan paling aman"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Selalu gunakan oli dari merek terpercaya yang terjamin keasliannya",
+          "Catat tanggal dan kilometer saat penggantian oli terakhir"
+        ],
+        "darurat": [
+          "Jika terpaksa menambah oli di jalan dan tidak menemukan merek yang sama, gunakan oli dengan spesifikasi viskositas yang sama atau paling mendekati"
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "title": "Bunyi 'Jedug' Saat Mobil Matic Masuk Gigi",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi suara atau hentakan 'jedug' yang terasa saat memindahkan tuas transmisi otomatis dari P ke R atau N ke D.",
+      "image": "https://images.unsplash.com/photo-1594741355679-b841f48d3c09?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi engine mounting dan transmission mounting (dudukan mesin dan transmisi). Jika sudah robek atau aus, mesin akan bergerak berlebihan dan menimbulkan hentakan",
+        "Periksa level oli transmisi. Level yang kurang bisa menyebabkan masalah tekanan",
+        "RPM mesin saat idle yang terlalu tinggi juga bisa menyebabkan hentakan lebih kasar",
+        "Bisa juga merupakan gejala awal masalah internal pada transmisi seperti solenoid atau body valve"
+      ],
+      "batas_aman": {
+        "kenyamanan": "Hentakan kasar sangat mengurangi kenyamanan saat awal berjalan",
+        "keausan_komponen": "Menandakan adanya komponen penahan getaran yang sudah tidak berfungsi baik"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa kondisi mounting saat servis",
+          "Ganti oli transmisi secara berkala",
+          "Pastikan RPM idle normal"
+        ],
+        "darurat": [
+          "Pindahkan tuas transmisi dengan jeda beberapa detik di setiap posisi (P-R-N-D) untuk mengurangi hentakan",
+          "Segera periksakan jika hentakan semakin parah"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "title": "Standar Samping Otomatis Motor Tidak Berfungsi",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Mengatasi fitur 'Side Stand Switch' dimana mesin tidak mau mati saat standar samping diturunkan, atau tidak mau hidup saat standar masih turun.",
+      "image": "https://images.unsplash.com/photo-1628176240035-75702b0e6f61?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cari lokasi switch standar samping, biasanya berupa tombol kecil yang tertekan oleh tuas standar",
+        "Bersihkan switch dari lumpur, debu, atau kotoran yang mungkin menghalangi gerakannya",
+        "Semprot dengan cairan penetran atau contact cleaner",
+        "Periksa kabel yang terhubung ke switch, mungkin ada yang putus atau konektornya kendor",
+        "Jika switch rusak secara internal, maka perlu diganti"
+      ],
+      "batas_aman": {
+        "risiko_kecelakaan": "Fitur ini sangat penting untuk mencegah motor dijalankan dengan standar masih turun, yang bisa menyebabkan kecelakaan fatal saat berbelok ke kiri",
+        "jangan_dijumper": "Menonaktifkan fitur ini dengan menyambung langsung kabelnya sangat tidak disarankan demi keselamatan"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan area standar samping saat mencuci motor"
+        ],
+        "darurat": [
+          "Jika mesin tidak mau hidup karena switch macet di posisi 'mematikan', coba goyang-goyangkan standar atau ketuk-ketuk switch-nya",
+          "Selalu periksa secara visual posisi standar samping sebelum jalan jika fitur ini rusak"
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "title": "Tekanan Angin Ban Kendaraan",
+      "topic": "Pengetahuan Dasar",
+      "vehicle_type": "kendaraan",
+      "description": "Pentingnya menjaga tekanan angin ban yang ideal dan cara mengetahui ukuran yang tepat.",
+      "image": "https://images.unsplash.com/photo-1625043484555-ea2641888448?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lihat stiker di pilar B (pintu pengemudi) mobil untuk mengetahui rekomendasi tekanan ban (dalam psi atau kPa)",
+        "Untuk motor, rekomendasi biasanya ada di stiker dekat rantai atau di bawah jok",
+        "Gunakan alat pengukur tekanan ban yang akurat",
+        "Periksa tekanan saat ban dalam kondisi dingin (belum berjalan jauh)",
+        "Tekanan kurang: membuat ban cepat aus di kedua sisi, boros BBM, dan handling berat",
+        "Tekanan berlebih: membuat ban cepat aus di bagian tengah, bantingan keras, dan mengurangi traksi"
+      ],
+      "batas_aman": {
+        "handling_dan_pengereman": "Tekanan yang tepat memastikan telapak ban menapak sempurna ke aspal, penting untuk handling dan pengereman",
+        "risiko_pecah_ban": "Tekanan yang sangat kurang atau sangat lebih meningkatkan risiko pecah ban"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Periksa tekanan angin ban secara rutin, minimal setiap 2 minggu sekali",
+          "Sesuaikan tekanan jika akan membawa beban berat (biasanya ditambah beberapa psi, lihat buku manual)"
+        ],
+        "darurat": [
+          "Jika ban terlihat kempis, segera cari tempat tambah angin. Jangan paksakan berjalan jauh"
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "title": "Kerak di Terminal Aki",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "kendaraan",
+      "description": "Cara membersihkan kerak jamur berwarna putih atau kebiruan pada terminal (kepala) aki.",
+      "image": "https://images.unsplash.com/photo-1621899953495-15a4a37f53f9?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lepaskan klem terminal dari kepala aki (lepas negatif (-) dulu, baru positif (+))",
+        "Siram terminal aki dan kepala aki dengan air panas untuk melarutkan kerak",
+        "Sikat sisa kerak dengan sikat kawat atau sikat gigi bekas hingga bersih",
+        "Keringkan dengan lap bersih",
+        "Pasang kembali klem (pasang positif (+) dulu, baru negatif (-)) dan kencangkan",
+        "Oleskan gemuk (grease) khusus terminal aki untuk mencegah kerak datang lagi"
+      ],
+      "batas_aman": {
+        "konektivitas": "Kerak dapat menghambat aliran listrik, menyebabkan mobil susah starter atau kelistrikan tidak stabil",
+        "korosif": "Cairan dari kerak bersifat korosif dan bisa merusak komponen di sekitarnya"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Pastikan klem aki terpasang kencang",
+          "Jaga kebersihan area aki",
+          "Gunakan pelindung terminal aki (grease atau semprotan khusus)"
+        ],
+        "darurat": [
+          "Jika mobil tiba-tiba tidak bisa distarter, memeriksa dan membersihkan terminal aki adalah salah satu pertolongan pertama yang bisa dilakukan"
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "title": "Lampu Indikator Rem Tangan Menyala Saat Jalan",
+      "topic": "Masalah Rem",
+      "vehicle_type": "mobil",
+      "description": "Lampu indikator rem '(!)' atau 'BRAKE' tetap menyala meskipun tuas rem tangan sudah dilepas sepenuhnya.",
+      "image": "https://images.unsplash.com/photo-1579781422723-6a56a469796e?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah level minyak rem di tabung reservoir sudah berada di bawah batas minimal",
+        "Penyebab lain adalah switch pada tuas rem tangan yang macet atau rusak",
+        "Periksa level minyak rem. Jika kurang, tambahkan dengan tipe yang sesuai. PERHATIAN: minyak rem yang berkurang biasanya menandakan kampas rem sudah tipis atau ada kebocoran",
+        "Pastikan tuas rem tangan benar-benar turun. Coba angkat dan turunkan beberapa kali",
+        "Jika level minyak rem normal, masalah kemungkinan ada pada sensor/pelampung di tabung atau switch di tuas"
+      ],
+      "batas_aman": {
+        "fungsi_vital_rem": "Ini adalah indikator yang sangat penting terkait sistem pengereman",
+        "peringatan_ganda": "Lampu ini berfungsi untuk dua hal: rem tangan aktif dan masalah pada sistem rem hidrolik"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin memeriksa level minyak rem (minimal sebulan sekali)",
+          "Lakukan pemeriksaan sistem rem secara menyeluruh saat servis"
+        ],
+        "darurat": [
+          "Jika lampu ini menyala, segera menepi di tempat aman",
+          "Periksa level minyak rem. Jika sangat kurang atau kosong, jangan lanjutkan perjalanan dan panggil bantuan. Ada kemungkinan rem blong."
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "title": "Baut Bodi Motor Kendor atau Hilang",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "motor",
+      "description": "Mengatasi masalah sepele namun mengganggu yaitu bodi motor yang bergetar atau renggang akibat baut yang kendor atau hilang.",
+      "image": "https://images.unsplash.com/photo-1627883733021-a5823901b559?w=400&h=300&fit=crop",
+      "solusi": [
+        "Identifikasi lokasi baut yang kendor atau hilang secara visual",
+        "Kencangkan baut yang kendor dengan obeng atau kunci yang sesuai. Jangan terlalu kencang agar bodi plastik tidak pecah",
+        "Jika baut hilang, bawa contoh baut dari sisi sebelahnya ke toko baut untuk membeli pengganti yang ukurannya sama",
+        "Jika lubang drat pada bodi sudah rusak (slek), bisa diakali dengan menggunakan baut yang sedikit lebih besar atau menambal lubang drat",
+        "Periksa semua baut bodi secara berkala"
+      ],
+      "batas_aman": {
+        "getaran_berlebih": "Bodi yang kendor akan menimbulkan getaran dan bunyi yang tidak nyaman",
+        "risiko_lepas": "Jika banyak baut yang hilang, panel bodi bisa terlepas di jalan dan membahayakan diri sendiri atau pengendara lain"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Pastikan semua baut terpasang kembali dengan benar setelah servis atau modifikasi",
+          "Rutin memeriksa kekencangan baut saat mencuci motor"
+        ],
+        "darurat": [
+          "Jika ada panel bodi yang akan lepas di jalan, ikat sementara dengan tali atau lakban hingga menemukan solusi permanen"
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "title": "Tuas Persneling Motor Keras",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "motor",
+      "description": "Mengatasi tuas ungkit persneling yang terasa keras saat diinjak atau diungkit.",
+      "image": "https://images.unsplash.com/photo-1591783820251-68953185e78a?w=400&h=300&fit=crop",
+      "solusi": [
+        "Lumasi as atau poros tuas persneling dengan gemuk atau pelumas semprot",
+        "Periksa linkage (sambungan) tuas persneling, mungkin ada yang bengkok atau kendor",
+        "Setelan kopling yang tidak pas bisa membuat perpindahan gigi terasa keras",
+        "Oli mesin yang sudah lama atau tidak sesuai spesifikasi bisa menjadi penyebab",
+        "Bisa juga merupakan gejala keausan pada komponen internal gearbox"
+      ],
+      "batas_aman": {
+        "kesulitan_berkendara": "Membuat perpindahan gigi menjadi tidak nyaman dan lambat",
+        "indikasi_masalah": "Bisa menjadi pertanda awal masalah yang lebih serius pada kopling atau transmisi"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin melumasi bagian-bagian bergerak",
+          "Ganti oli mesin tepat waktu dan sesuai spesifikasi",
+          "Setel kopling secara berkala"
+        ],
+        "darurat": [
+          "Pindahkan gigi dengan lebih perlahan dan pastikan kopling ditarik penuh"
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "title": "Gardan Mobil Mendengung",
+      "topic": "Masalah Transmisi",
+      "vehicle_type": "mobil",
+      "description": "Mengidentifikasi suara dengungan dari bagian belakang mobil (penggerak roda belakang) yang berubah seiring kecepatan.",
+      "image": "https://images.unsplash.com/photo-1599249102945-397a699be657?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah level oli gardan yang kurang atau kualitasnya sudah menurun",
+        "Bisa juga disebabkan oleh keausan pada bearing (laher) atau gigi-gigi di dalam gardan (gear set)",
+        "Setelan celah (backlash) antara gigi pinion dan gigi crown wheel yang tidak tepat juga bisa menimbulkan dengung",
+        "Perbaikan membutuhkan keahlian khusus dan seringkali harus mengganti komponen internal",
+        "Langkah pertama adalah memeriksa dan mengganti oli gardan"
+      ],
+      "batas_aman": {
+        "indikator_keausan": "Dengung menandakan adanya gesekan atau komponen yang tidak presisi lagi",
+        "risiko_macet": "Jika dibiarkan, kerusakan bisa menjadi parah hingga gardan macet total"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Ganti oli gardan secara rutin sesuai jadwal dari pabrikan (biasanya setiap 40.000 km)",
+          "Hindari akselerasi kasar dan hentakan yang membebani gardan"
+        ],
+        "darurat": [
+          "Suara dengung biasanya tidak menyebabkan mogok mendadak, namun sebaiknya segera diperiksakan ke bengkel spesialis gardan atau kaki-kaki"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "title": "Jok Motor Keras dan Licin",
+      "topic": "Kenyamanan dan Keamanan",
+      "vehicle_type": "motor",
+      "description": "Solusi untuk meningkatkan kenyamanan dan keamanan dari jok motor yang keras atau kulitnya licin.",
+      "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=400&h=300&fit=crop",
+      "solusi": [
+        "Untuk jok keras: Ganti busa jok dengan busa lateks atau tambahkan lapisan gel pad di tukang jok",
+        "Modifikasi bentuk jok (papras busa) agar lebih sesuai dengan postur tubuh",
+        "Untuk jok licin: Ganti kulit pelapis jok dengan bahan yang teksturnya lebih kesat atau bermotif (seperti model MBTech, dll)",
+        "Hindari menggunakan semir ban atau silikon pada permukaan jok karena akan membuatnya sangat licin",
+        "Gunakan jaring cover jok untuk menambah sirkulasi udara dan mengurangi licin"
+      ],
+      "batas_aman": {
+        "kenyamanan_jarak_jauh": "Jok yang keras membuat cepat lelah dan sakit saat touring",
+        "keamanan": "Jok yang licin berbahaya karena bisa membuat posisi berkendara tidak stabil, terutama saat mengerem mendadak"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Pilih bahan pelapis dan busa yang berkualitas saat memodifikasi jok",
+          "Bersihkan jok hanya dengan air dan sabun lembut"
+        ],
+        "darurat": [
+          "Jika terpaksa berkendara dengan jok licin, jepit tangki dengan paha lebih kuat untuk menjaga posisi"
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "title": "Mesin Mobil Pincang",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Kondisi mesin yang bergetar tidak normal dan suaranya kasar seolah ada satu silinder yang tidak bekerja.",
+      "image": "https://images.unsplash.com/photo-1599252119778-d758b7f87796?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab paling umum adalah masalah pada sistem pengapian: busi mati, koil lemah, atau kabel busi bocor",
+        "Bisa juga karena masalah pada sistem bahan bakar: injektor tersumbat atau mati",
+        "Penyebab lain yang lebih serius adalah hilangnya kompresi pada salah satu silinder",
+        "Cara mendeteksi: saat mesin idle, cabut konektor injektor atau kabel busi satu per satu. Jika saat dicabut tidak ada perubahan pada getaran mesin, berarti silinder itulah yang bermasalah.",
+        "Ganti busi atau periksa komponen pengapian dan injektor pada silinder yang bermasalah"
+      ],
+      "batas_aman": {
+        "performa_hilang": "Tenaga mesin akan turun drastis dan boros bahan bakar",
+        "kerusakan_lanjut": "Bahan bakar yang tidak terbakar bisa merusak dinding silinder dan catalytic converter"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan tune-up secara rutin",
+          "Ganti busi sesuai jadwal",
+          "Gunakan bahan bakar yang bersih dan berkualitas"
+        ],
+        "darurat": [
+          "Hindari mengemudikan mobil dalam kondisi pincang untuk jarak jauh",
+          "Berkendara dengan perlahan dan segera bawa ke bengkel"
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "title": "Kampas Rem Motor Cepat Habis",
+      "topic": "Masalah Rem",
+      "vehicle_type": "motor",
+      "description": "Menganalisa penyebab kampas rem yang aus lebih cepat dari kewajaran.",
+      "image": "https://images.unsplash.com/photo-1581123792224-e57b91a7b7a1?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa piston kaliper, mungkin macet atau karatan sehingga tidak mau kembali dan terus menjepit kampas rem",
+        "Periksa pin atau slide pada kaliper, mungkin kering atau kotor sehingga kaliper tidak bisa bergerak bebas",
+        "Untuk rem tromol, periksa as tuas rem yang mungkin macet",
+        "Kebiasaan menaruh jari atau kaki di tuas/pedal rem secara tidak sadar juga bisa menjadi penyebab",
+        "Kualitas kampas rem yang terlalu lunak juga membuatnya cepat habis"
+      ],
+      "batas_aman": {
+        "overheat": "Rem yang sedikit macet akan terus bergesekan, menyebabkan panas berlebih pada piringan dan kampas, berisiko rem blong",
+        "piringan_rusak": "Kampas yang habis hingga mengenai besinya akan merusak piringan cakram"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Bersihkan dan lumasi komponen kaliper saat servis atau ganti kampas rem",
+          "Ganti minyak rem secara rutin untuk mencegah karat pada piston kaliper",
+          "Hindari kebiasaan standby di tuas/pedal rem"
+        ],
+        "darurat": [
+          "Jika setelah berkendara piringan cakram terasa sangat panas padahal jarang mengerem, ini indikasi rem macet. Segera periksakan."
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "title": "Alarm Mobil Terlalu Sensitif",
+      "topic": "Masalah Elektronik",
+      "vehicle_type": "mobil",
+      "description": "Mengatasi alarm mobil yang sering berbunyi sendiri karena getaran kecil, suara keras, atau tanpa sebab yang jelas.",
+      "image": "https://images.unsplash.com/photo-1597686153926-73345731b0a2?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cari modul alarm (biasanya di bawah dashboard) dan temukan sekrup atau tombol penyetel sensor getar",
+        "Putar penyetel sensor getar sedikit ke arah berlawanan jarum jam untuk mengurangi sensitivitasnya",
+        "Lakukan tes dengan menggoyangkan mobil sedikit, setel hingga alarm tidak berbunyi karena getaran wajar",
+        "Periksa switch pada pintu, kap mesin, dan bagasi. Switch yang kotor atau posisinya tidak pas bisa mengirim sinyal palsu bahwa pintu terbuka.",
+        "Periksa kondisi aki, tegangan aki yang mulai lemah kadang bisa menyebabkan malfungsi pada sistem alarm."
+      ],
+      "batas_aman": {
+        "gangguan_lingkungan": "Alarm yang terlalu sensitif sangat mengganggu tetangga dan lingkungan sekitar",
+        "diabaikan": "Jika terlalu sering bunyi palsu, orang akan cenderung mengabaikannya saat benar-benar ada pencuri"
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Pasang alarm di instalatur profesional",
+          "Jaga kebersihan switch-switch pintu"
+        ],
+        "darurat": [
+          "Jika alarm terus berbunyi, buka dan tutup semua pintu, kap mesin, dan bagasi dengan rapat. Kunci kembali mobil. Jika masih berlanjut, mungkin perlu mencabut sekring alarm untuk sementara."
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "title": "Karet Pintu Mobil Getas atau Sobek",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "mobil",
+      "description": "Pentingnya merawat dan kapan harus mengganti karet pintu (weatherstrip) untuk menjaga kesenyapan kabin.",
+      "image": "https://images.unsplash.com/photo-1544626154-6729d38c5a2c?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi karet pintu secara visual dari retak, getas, atau sobek.",
+        "Karet yang sudah kempes atau tidak elastis lagi tidak bisa meredam suara dan mencegah air masuk dengan baik.",
+        "Untuk perawatan: oleskan cairan silicone spray atau rubber conditioner secara berkala untuk menjaga kelenturan.",
+        "Jika sudah sobek atau rusak parah, karet pintu harus diganti dengan yang baru.",
+        "Penggantian biasanya tinggal menarik karet lama dan memasang karet baru pada jalurnya."
+      ],
+      "batas_aman": {
+        "kebocoran_air": "Karet yang rusak menyebabkan air hujan merembes ke dalam kabin.",
+        "kesenyapan_kabin": "Suara angin dari luar akan masuk dengan jelas, mengurangi kenyamanan berkendara.",
+        "pintu_bergetar": "Dapat menyebabkan pintu sedikit bergetar atau berbunyi saat melewati jalan tidak rata."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Rutin membersihkan dan merawat karet pintu.",
+          "Hindari parkir di bawah terik matahari langsung dalam waktu lama."
+        ],
+        "darurat": [
+          "Untuk sobekan kecil, bisa dilem sementara dengan lem super. Jika terjadi kebocoran saat hujan, sumbat sementara dengan kain."
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "title": "Lampu Motor Kurang Terang",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "motor",
+      "description": "Menganalisa dan mengatasi penyebab cahaya lampu utama motor yang redup atau kekuningan.",
+      "image": "https://images.unsplash.com/photo-1558981359-219d6364c9c8?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa kondisi mika atau reflektor lampu, jika sudah kusam atau menguning akan sangat mengurangi pancaran cahaya.",
+        "Periksa kondisi bohlam, mungkin sudah mau putus atau kualitasnya kurang baik.",
+        "Periksa sistem pengisian (kiprok dan spul). Tegangan yang kurang akan membuat lampu redup.",
+        "Cek kondisi soket dan kabel lampu, mungkin ada yang meleleh atau korosi sehingga koneksi tidak sempurna.",
+        "Upgrade ke lampu LED atau HID berkualitas (perhatikan aturan hukum yang berlaku) bisa menjadi solusi, namun pastikan kelistrikan motor mendukung."
+      ],
+      "batas_aman": {
+        "visibilitas_malam": "Lampu yang redup sangat berbahaya saat berkendara malam hari, terutama di jalan tanpa penerangan.",
+        "kelistrikan": "Jangan memasang lampu dengan daya (watt) yang lebih besar dari standar tanpa menyesuaikan sistem kelistrikan, bisa membuat reflektor meleleh atau aki tekor."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Bersihkan mika lampu secara rutin.",
+          "Gunakan bohlam dengan spesifikasi standar.",
+          "Jaga kesehatan sistem kelistrikan motor."
+        ],
+        "darurat": [
+          "Gunakan lampu jauh dengan bijak jika lampu dekat sangat redup, sambil tetap memperhatikan pengendara dari arah berlawanan. Kurangi kecepatan."
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "title": "Bunyi Aneh dari Kolong Mobil",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Mengidentifikasi berbagai jenis bunyi (gluduk, kletek, decit) dari bagian bawah mobil dan kemungkinan penyebabnya.",
+      "image": "https://images.unsplash.com/photo-1599249102945-397a699be657?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bunyi 'gluduk-gluduk' saat lewat jalan keriting: kemungkinan besar dari link stabilizer, karet stabilizer, atau shock absorber yang mati.",
+        "Bunyi 'kletek-kletek' saat berbelok patah: kemungkinan dari as roda (CV joint) bagian luar.",
+        "Bunyi 'kriet-kriet' seperti ranjang tua: kemungkinan dari ball joint atau tie rod end yang kering atau aus.",
+        "Bunyi gemuruh yang mengikuti putaran roda: kemungkinan dari laher (bearing) roda yang rusak.",
+        "Pemeriksaan memerlukan mobil diangkat dengan lift untuk bisa digoyangkan bannya dan diperiksa satu per satu komponennya."
+      ],
+      "batas_aman": {
+        "stabilitas_kendaraan": "Bunyi-bunyian ini menandakan ada komponen kaki-kaki yang oblak, yang dapat mempengaruhi stabilitas dan keselamatan.",
+        "keausan_ban": "Kaki-kaki yang tidak sehat dapat menyebabkan ban aus tidak merata."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Lakukan pemeriksaan kaki-kaki secara rutin.",
+          "Hindari menghantam lubang dengan kecepatan tinggi."
+        ],
+        "darurat": [
+          "Jika muncul bunyi aneh yang sangat keras, kurangi kecepatan dan berkendara dengan hati-hati menuju bengkel terdekat. Hindari manuver mendadak."
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "title": "Air Radiator Mobil Cepat Berkurang",
+      "topic": "Masalah Mesin",
+      "vehicle_type": "mobil",
+      "description": "Mencari penyebab air di tabung reservoir radiator yang sering habis padahal tidak ada tanda-tanda overheat.",
+      "image": "https://images.unsplash.com/photo-1627993093954-46a96a77412f?w=400&h=300&fit=crop",
+      "solusi": [
+        "Cari kebocoran eksternal: periksa selang-selang radiator, klem, radiator, water pump, dan tabung reservoir. Cari rembesan atau bercak putih kehijauan (bekas coolant kering).",
+        "Periksa tutup radiator, karetnya yang sudah getas bisa menyebabkan air menguap.",
+        "Cari kebocoran internal (lebih sulit): periksa dipstick oli, jika warnanya seperti kopi susu berarti ada kebocoran paking silinder. Periksa busi, jika salah satu busi sangat bersih dibanding yang lain, kemungkinan air masuk ke silinder tersebut.",
+        "Periksa karpet di bawah dashboard, jika basah dan berbau manis, kemungkinan heater core bocor."
+      ],
+      "batas_aman": {
+        "risiko_overheat": "Meskipun belum overheat, level air yang terus berkurang suatu saat akan menyebabkan mesin terlalu panas jika tidak segera ditangani.",
+        "kerusakan_mesin": "Kebocoran internal dapat merusak mesin secara serius."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan coolant berkualitas yang juga mengandung anti-karat.",
+          "Periksa sistem pendingin secara berkala."
+        ],
+        "darurat": [
+          "Selalu bawa air mineral atau coolant cadangan.",
+          "Rutin periksa level air di tabung reservoir setiap sebelum jalan jika Anda tahu ada masalah kebocoran halus."
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "title": "Bearing Roda Motor Oblak",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "motor",
+      "description": "Gejala dan bahaya dari laher atau bearing roda yang sudah aus, oblak, atau pecah.",
+      "image": "https://images.unsplash.com/photo-1605175860434-658b5a109f4b?w=400&h=300&fit=crop",
+      "solusi": [
+        "Gejala: Terdengar suara gemuruh dari arah roda yang mengikuti kecepatan, handling terasa goyang atau tidak stabil, atau ada speleng (oblak) saat roda digoyangkan ke kiri-kanan.",
+        "Cara cek: Gunakan standar tengah, pegang bagian atas dan bawah ban lalu goyangkan. Seharusnya tidak ada gerakan atau bunyi 'kletak'.",
+        "Penyebab: Usia pakai, sering menerobos banjir atau jalan rusak, atau pemasangan yang salah.",
+        "Solusi: Ganti bearing roda dengan yang baru. Sebaiknya ganti sepasang (kiri dan kanan). Pastikan membeli ukuran yang sesuai dan kualitas yang baik."
+      ],
+      "batas_aman": {
+        "keamanan": "Bearing yang oblak parah atau pecah dapat menyebabkan roda macet atau bahkan terlepas saat berjalan. Ini sangat fatal.",
+        "merembet": "Dapat merusak komponen lain seperti velg dan seal roda."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari menerobos genangan air yang tinggi.",
+          "Gunakan bearing berkualitas dan pasang di bengkel terpercaya agar tidak dipukul secara paksa."
+        ],
+        "darurat": [
+          "Jika terasa gejala bearing rusak, segera kurangi kecepatan dan jangan gunakan motor untuk perjalanan jauh. Segera ganti."
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "title": "Cat Kendaraan Terkena Kotoran Burung atau Getah Pohon",
+      "topic": "Masalah Eksterior",
+      "vehicle_type": "kendaraan",
+      "description": "Cara aman dan cepat untuk membersihkan kotoran burung atau getah pohon dari permukaan cat sebelum merusak lapisan pernis.",
+      "image": "https://images.unsplash.com/photo-1593952392743-390517373f76?w=400&h=300&fit=crop",
+      "solusi": [
+        "Bertindak cepat adalah kunci. Jangan biarkan kotoran mengering terlalu lama di bawah panas matahari.",
+        "Basahi area yang terkena noda dengan air atau lebih baik lagi dengan cairan quick detailer.",
+        "Letakkan kain microfiber yang sudah dibasahi di atas noda selama beberapa menit untuk melunakkannya.",
+        "Angkat kotoran dengan lembut, jangan digosok atau diseret karena partikel padat bisa menggores cat.",
+        "Setelah bersih, semprot lagi dengan quick detailer dan lap hingga kering.",
+        "Jika sudah meninggalkan noda (etching), perlu dipoles (polishing) untuk menghilangkannya."
+      ],
+      "batas_aman": {
+        "sifat_asam": "Kotoran burung dan beberapa jenis getah bersifat asam dan dapat merusak lapisan pernis (clear coat) secara permanen jika dibiarkan.",
+        "jangan_digosok_kering": "Menggosok noda yang sudah kering akan menyebabkan baret parah."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Hindari parkir di bawah pohon besar atau kabel listrik tempat burung sering bertengger.",
+          "Aplikasikan wax atau coating pada cat untuk memberikan lapisan proteksi tambahan."
+        ],
+        "darurat": [
+          "Selalu sedia botol semprot berisi air dan kain microfiber di kendaraan untuk penanganan cepat."
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "title": "Koil Motor Lemah atau Mati",
+      "topic": "Masalah Pengapian",
+      "vehicle_type": "motor",
+      "description": "Gejala dan cara mendeteksi koil pengapian yang sudah lemah atau mati total.",
+      "image": "https://images.unsplash.com/photo-1627883733021-a5823901b559?w=400&h=300&fit=crop",
+      "solusi": [
+        "Gejala koil lemah: motor brebet saat panas atau di RPM tinggi, tenaga berkurang, dan boros BBM.",
+        "Gejala koil mati: motor mogok total dan tidak ada percikan api dari busi sama sekali.",
+        "Cara tes: Dekatkan ujung busi (yang terhubung ke cop busi) ke blok mesin (ground), lalu starter. Lihat kualitas percikan apinya. Api yang bagus berwarna biru pekat dan besar. Api yang lemah berwarna kemerahan dan kecil.",
+        "Pastikan busi dan cop busi dalam kondisi baik sebelum menyalahkan koil.",
+        "Jika koil rusak, harus diganti. Tidak bisa diperbaiki."
+      ],
+      "batas_aman": {
+        "pembakaran": "Percikan api yang lemah menyebabkan pembakaran tidak sempurna.",
+        "mogok_total": "Koil yang mati total akan membuat motor tidak bisa hidup sama sekali."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan busi yang sesuai standar.",
+          "Jaga sistem kelistrikan (aki dan kiprok) dalam kondisi prima."
+        ],
+        "darurat": [
+          "Tidak ada solusi darurat di jalan jika koil mati. Motor harus didorong atau di-stut ke bengkel."
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "title": "Klakson Telolet atau Aftermarket Tidak Bunyi",
+      "topic": "Masalah Kelistrikan",
+      "vehicle_type": "kendaraan",
+      "description": "Memeriksa rangkaian klakson tambahan (seperti klakson keong, telolet) yang tiba-tiba tidak berfungsi.",
+      "image": "https://images.unsplash.com/photo-1563728647939-950c6046e7f1?w=400&h=300&fit=crop",
+      "solusi": [
+        "Periksa sekring tambahan yang dipasang khusus untuk klakson tersebut.",
+        "Periksa relay klakson. Relay adalah komponen yang paling sering rusak pada rangkaian ini. Coba ganti dengan yang baru.",
+        "Periksa semua sambungan kabel, terutama kabel positif dari aki dan kabel ground ke bodi kendaraan. Pastikan kencang dan tidak berkarat.",
+        "Pastikan tombol atau saklar klakson berfungsi dengan baik.",
+        "Untuk klakson angin (telolet), periksa juga kompresor udaranya, apakah motornya berputar atau tidak."
+      ],
+      "batas_aman": {
+        "korsleting": "Rangkaian aftermarket rentan terhadap korsleting jika pemasangannya tidak rapi dan tidak menggunakan sekring.",
+        "beban_aki": "Pastikan kabel dan relay yang digunakan sesuai dengan beban klakson untuk mencegah aki tekor atau kabel meleleh."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Gunakan jasa instalatur profesional saat memasang aksesoris kelistrikan.",
+          "Gunakan kabel, sekring, dan relay yang berkualitas.",
+          "Rapikan jalur kabel dan lindungi dari gesekan dan panas."
+        ],
+        "darurat": [
+          "Jika terjadi korsleting (tercium bau gosong atau keluar asap), segera putuskan koneksi aki jika memungkinkan."
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "title": "Baut Roda Mobil Patah atau Slek",
+      "topic": "Masalah Kaki-kaki",
+      "vehicle_type": "mobil",
+      "description": "Penanganan saat baut roda (lug nut) tidak bisa dikencangkan (slek) atau bahkan patah.",
+      "image": "https://images.unsplash.com/photo-1615488880691-1b9b94016a3f?w=400&h=300&fit=crop",
+      "solusi": [
+        "Penyebab: pengencangan yang berlebihan (over-torque) dengan kunci impact, atau proses buka-pasang yang miring.",
+        "Jika drat mur atau baut yang slek: jangan dipaksa. Coba lepas perlahan. Kemungkinan mur dan baut harus diganti.",
+        "Jika baut roda (stud) patah: roda harus dilepas, lalu sisa baut yang patah harus dikeluarkan dari hub roda. Ini mungkin memerlukan bor atau las.",
+        "Ganti baut yang patah atau slek dengan yang baru di bengkel.",
+        "Jangan pernah mengemudi dengan jumlah baut roda yang kurang."
+      ],
+      "batas_aman": {
+        "risiko_roda_lepas": "Baut roda berfungsi menahan roda agar tetap menempel pada mobil. Jika jumlahnya kurang atau tidak kencang, roda bisa terlepas saat berjalan. Ini SANGAT BERBAHAYA.",
+        "torsi_pengencangan": "Kencangkan baut roda secara menyilang dengan torsi yang pas menggunakan kunci torsi, bukan hanya dengan feeling atau kunci impact."
+      },
+      "penanggulangan": {
+        "pencegahan": [
+          "Selalu awasi proses buka-pasang ban di bengkel, minta agar pengencangan akhir menggunakan kunci torsi.",
+          "Hindari mengencangkan baut roda secara berlebihan."
+        ],
+        "darurat": [
+          "Jika Anda sadar ada baut yang patah atau kendor saat di jalan, segera menepi dengan sangat perlahan. Jangan lanjutkan perjalanan. Panggil bantuan darurat atau towing."
+        ]
+      }
+    }
+  ]
+}

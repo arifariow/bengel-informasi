@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Trik Kendaraan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <i class="fas fa-car me-3"></i>
+                            Tips & Trik Kendaraan
+                        </h1>
+                        <p class="hero-subtitle">
+                            Panduan lengkap perawatan dan tips kendaraan untuk menjaga performa optimal kendaraan Anda
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span id="totalTips">8+</span>
+                                <small>Tips Tersedia</small>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span>1000+</span>
+                                <small>Pengguna</small>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                                <small>Rating</small>
+                            </div>
+                        </div>
+                        <a href="#tips-section" class="btn btn-hero btn-lg">
+                            <i class="fas fa-arrow-down me-2"></i>
+                            Jelajahi Tips
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-search-card">
+                        <h3 class="mb-4">Cari Tips Kendaraan</h3>
+                        <div class="search-form">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-control-lg" id="heroSearchInput" placeholder="Cari tips perawatan...">
+                                <button class="btn btn-primary btn-lg" type="button" id="heroSearchBtn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            <div class="popular-searches">
+                                <small class="text-muted">Pencarian populer:</small>
+                                <div class="mt-2">
+                                    <span class="badge bg-light text-dark me-2 search-tag" data-search="oli mesin">Oli Mesin</span>
+                                    <span class="badge bg-light text-dark me-2 search-tag" data-search="ban">Ban</span>
+                                    <span class="badge bg-light text-dark me-2 search-tag" data-search="rem">Rem</span>
+                                    <span class="badge bg-light text-dark search-tag" data-search="bbm">BBM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">
+                <i class="fas fa-car me-2 text-primary"></i>
+                Tips Kendaraan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-category="all">
+                            <i class="fas fa-th-large me-1"></i>Semua
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="mobil">
+                            <i class="fas fa-car me-1"></i>Mobil
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="motor">
+                            <i class="fas fa-motorcycle me-1"></i>Motor
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="truk">
+                            <i class="fas fa-truck me-1"></i>Truk
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="perawatan">
+                            <i class="fas fa-tools me-1"></i>Perawatan
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary me-2" id="gridViewBtn" title="Grid View">
+                        <i class="fas fa-th"></i>
+                    </button>
+                    <button class="btn btn-outline-primary" id="listViewBtn" title="List View">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tips Section -->
+    <section id="tips-section" class="py-5">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Tips & Trik Terpilih</h2>
+                    <p class="section-subtitle">Kumpulan tips terbaik untuk merawat kendaraan Anda dengan mudah dan efektif</p>
+                </div>
+            </div>
+
+            <!-- Filter Info -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="filter-info d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted">Menampilkan </span>
+                            <span class="fw-bold" id="resultsCount">0</span>
+                            <span class="text-muted"> tips</span>
+                            <span id="categoryFilter" class="ms-2"></span>
+                        </div>
+                        <div class="view-toggle d-none d-md-block">
+                            <small class="text-muted me-2">Tampilan:</small>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button type="button" class="btn btn-outline-secondary active" id="cardView">
+                                    <i class="fas fa-th"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary" id="listView">
+                                    <i class="fas fa-list"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading State -->
+            <div id="loadingState" class="text-center py-5">
+                <div class="loading-animation">
+                    <div class="spinner-grow text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-secondary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+                <p class="mt-3 text-muted">Memuat tips dan trik terbaik...</p>
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="text-center py-5" style="display: none;" data-aos="fade-up">
+                <div class="empty-state-icon">
+                    <i class="fas fa-inbox"></i>
+                </div>
+                <h3 class="empty-state-title">Belum Ada Tips Tersedia</h3>
+                <p class="empty-state-text">Tips dan trik kendaraan akan ditampilkan di sini ketika data tersedia.</p>
+                <button class="btn btn-primary" onclick="location.reload()">
+                    <i class="fas fa-refresh me-2"></i>Muat Ulang
+                </button>
+            </div>
+
+            <!-- No Results State -->
+            <div id="noResultsState" class="text-center py-5" style="display: none;" data-aos="fade-up">
+                <div class="empty-state-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3 class="empty-state-title">Tidak Ada Hasil Ditemukan</h3>
+                <p class="empty-state-text">Coba gunakan kata kunci yang berbeda atau pilih kategori lain.</p>
+                <button class="btn btn-outline-primary" id="clearSearchBtn">
+                    <i class="fas fa-times me-2"></i>Hapus Pencarian
+                </button>
+            </div>
+
+            <!-- Tips Container -->
+            <div id="tipsContainer" class="row" style="display: none;">
+                <!-- Tips akan dimuat di sini -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Full Content -->
+    <div class="modal fade" id="tipModal" tabindex="-1" aria-labelledby="tipModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tipModalLabel">
+                        <i class="modal-icon me-2"></i>
+                        <span id="modalTitle"></span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Content will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <div class="d-flex justify-content-between w-100">
+                        <div>
+                            <span class="badge modal-category-badge" id="modalCategory"></span>
+                            <span class="badge modal-difficulty-badge ms-2" id="modalDifficulty"></span>
+                        </div>
+                        <div>
+                            <small class="text-muted" id="modalReadTime">
+                                <i class="fas fa-clock me-1"></i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <h5><i class="fas fa-car me-2"></i>Tips & Trik Kendaraan</h5>
+                        <p class="footer-description">
+                            Sumber informasi terpercaya untuk perawatan dan tips kendaraan Anda. 
+                            Dapatkan panduan lengkap dari para ahli.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Kategori</h6>
+                    <ul class="footer-links">
+                        <li><a href="#" data-category="mobil">Tips Mobil</a></li>
+                        <li><a href="#" data-category="motor">Tips Motor</a></li>
+                        <li><a href="#" data-category="truk">Tips Truk</a></li>
+                        <li><a href="#" data-category="perawatan">Perawatan</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Populer</h6>
+                    <ul class="footer-links">
+                        <li><a href="#" data-search="oli mesin">Oli Mesin</a></li>
+                        <li><a href="#" data-search="ban">Perawatan Ban</a></li>
+                        <li><a href="#" data-search="rem">Sistem Rem</a></li>
+                        <li><a href="#" data-search="bbm">Hemat BBM</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="footer-title">Statistik</h6>
+                    <div class="footer-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <strong id="footerTotalTips">8+</strong>
+                                <small>Tips Tersedia</small>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-eye"></i>
+                            <div>
+                                <strong>10K+</strong>
+                                <small>Dibaca</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">
+                        &copy; 2024 Tips & Trik Kendaraan. Semua hak dilindungi.
+                    </p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="footer-social">
+                        <small class="text-muted">Bagikan:</small>
+                        <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="btn-back-to-top" id="backToTop" title="Kembali ke Atas">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Embedded Data -->
+    <script>
+        const tipsData = {
+            "tips": [
+                {
+                    "id": 1,
+                    "title": "Cara Merawat Mesin Mobil Agar Awet",
+                    "description": "Tips penting untuk menjaga performa mesin mobil agar tetap optimal dan tahan lama. Perawatan rutin dapat menghemat biaya perbaikan di masa depan.",
+                    "category": "Mobil",
+                    "difficulty": "Mudah",
+                    "readTime": "3 menit baca",
+                    "steps": [
+                        "Ganti oli mesin secara rutin setiap 5.000-10.000 km",
+                        "Periksa level air radiator dan tambahkan jika kurang",
+                        "Bersihkan filter udara setiap 3 bulan",
+                        "Periksa kondisi aki dan terminal-terminalnya",
+                        "Lakukan tune-up berkala sesuai jadwal"
+                    ],
+                    "tips": [
+                        "Gunakan oli sesuai spesifikasi pabrik",
+                        "Panaskan mesin 2-3 menit sebelum berkendara",
+                        "Hindari rpm tinggi saat mesin masih dingin"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Tips Menghemat BBM Motor",
+                    "description": "Cara efektif untuk mengurangi konsumsi bahan bakar motor dengan teknik berkendara yang tepat dan perawatan yang baik.",
+                    "category": "Motor",
+                    "difficulty": "Mudah",
+                    "readTime": "2 menit baca",
+                    "steps": [
+                        "Jaga tekanan angin ban sesuai standar",
+                        "Lakukan servis berkala setiap 3.000 km",
+                        "Bersihkan filter udara secara rutin",
+                        "Gunakan oli mesin berkualitas baik",
+                        "Hindari beban berlebihan"
+                    ],
+                    "tips": [
+                        "Berkendara dengan kecepatan konstan",
+                        "Hindari akselerasi mendadak",
+                        "Matikan mesin saat berhenti lama",
+                        "Gunakan gigi yang tepat sesuai kecepatan"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Perawatan Ban Kendaraan",
+                    "description": "Panduan lengkap merawat ban agar awet, aman, dan memberikan performa terbaik untuk kendaraan Anda.",
+                    "category": "Perawatan",
+                    "difficulty": "Mudah",
+                    "readTime": "4 menit baca",
+                    "steps": [
+                        "Periksa tekanan angin ban setiap minggu",
+                        "Rotasi ban setiap 10.000 km",
+                        "Periksa kedalaman alur ban secara berkala",
+                        "Bersihkan ban dari kotoran dan kerikil",
+                        "Hindari parkir di tempat yang panas"
+                    ],
+                    "tips": [
+                        "Gunakan tekanan angin sesuai rekomendasi pabrik",
+                        "Periksa kondisi ban cadangan",
+                        "Ganti ban jika alur sudah tipis",
+                        "Hindari pengereman mendadak"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Cara Mengatasi Overheat pada Mobil",
+                    "description": "Langkah-langkah darurat dan pencegahan ketika mesin mobil mengalami overheat atau panas berlebihan.",
+                    "category": "Mobil",
+                    "difficulty": "Sedang",
+                    "readTime": "5 menit baca",
+                    "steps": [
+                        "Segera menepi dan matikan mesin",
+                        "Biarkan mesin dingin selama 15-30 menit",
+                        "Periksa level air radiator (hati-hati, jangan buka tutup saat panas)",
+                        "Periksa kebocoran selang radiator",
+                        "Tambahkan air radiator jika perlu",
+                        "Nyalakan mesin dan pantau suhu"
+                    ],
+                    "tips": [
+                        "Selalu bawa air radiator cadangan",
+                        "Jangan membuka tutup radiator saat mesin panas",
+                        "Periksa kipas radiator berfungsi dengan baik",
+                        "Ganti thermostat jika sering overheat"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Perawatan Sistem Rem Motor",
+                    "description": "Tips penting untuk menjaga sistem rem motor agar selalu dalam kondisi optimal dan aman digunakan.",
+                    "category": "Motor",
+                    "difficulty": "Sedang",
+                    "readTime": "4 menit baca",
+                    "steps": [
+                        "Periksa ketebalan kampas rem secara berkala",
+                        "Cek level minyak rem dan tambahkan jika kurang",
+                        "Periksa kondisi selang rem dari kebocoran",
+                        "Test fungsi rem depan dan belakang",
+                        "Bersihkan piringan rem dari kotoran"
+                    ],
+                    "tips": [
+                        "Ganti kampas rem jika sudah tipis",
+                        "Gunakan minyak rem sesuai spesifikasi",
+                        "Hindari pengereman mendadak",
+                        "Lakukan bleeding rem jika terasa spongy"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Tips Berkendara Aman di Musim Hujan",
+                    "description": "Panduan berkendara yang aman dan nyaman saat cuaca hujan untuk menghindari kecelakaan dan masalah teknis.",
+                    "category": "Perawatan",
+                    "difficulty": "Mudah",
+                    "readTime": "3 menit baca",
+                    "steps": [
+                        "Periksa kondisi wiper dan ganti jika perlu",
+                        "Pastikan lampu depan dan belakang berfungsi",
+                        "Cek kondisi ban dan kedalaman alurnya",
+                        "Periksa sistem rem bekerja dengan baik",
+                        "Bersihkan kaca dari embun dan kotoran"
+                    ],
+                    "tips": [
+                        "Kurangi kecepatan saat hujan",
+                        "Jaga jarak aman dengan kendaraan lain",
+                        "Nyalakan lampu meski siang hari",
+                        "Hindari genangan air yang dalam",
+                        "Gunakan AC untuk menghilangkan embun"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "title": "Perawatan Truk untuk Perjalanan Jauh",
+                    "description": "Checklist lengkap perawatan truk sebelum melakukan perjalanan jarak jauh untuk memastikan keamanan dan kenyamanan.",
+                    "category": "Truk",
+                    "difficulty": "Sulit",
+                    "readTime": "6 menit baca",
+                    "steps": [
+                        "Periksa kondisi semua ban termasuk ban cadangan",
+                        "Cek level oli mesin, transmisi, dan diferensial",
+                        "Periksa sistem rem dan kampas rem",
+                        "Test fungsi lampu dan sistem kelistrikan",
+                        "Periksa kondisi suspensi dan shock absorber",
+                        "Cek sistem pendingin dan level air radiator",
+                        "Periksa kondisi sabuk penggerak (V-belt)"
+                    ],
+                    "tips": [
+                        "Bawa peralatan darurat lengkap",
+                        "Siapkan ban cadangan yang baik",
+                        "Periksa dokumen kendaraan",
+                        "Istirahat setiap 2 jam berkendara",
+                        "Jangan melebihi kapasitas muatan"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "title": "Cara Mengatasi Aki Tekor",
+                    "description": "Solusi praktis ketika aki kendaraan tekor atau soak, termasuk cara jump start yang aman dan benar.",
+                    "category": "Perawatan",
+                    "difficulty": "Sedang",
+                    "readTime": "4 menit baca",
+                    "steps": [
+                        "Siapkan kabel jumper dan kendaraan donor",
+                        "Matikan kedua mesin dan lepas kunci kontak",
+                        "Hubungkan kabel merah ke terminal positif aki tekor",
+                        "Hubungkan ujung kabel merah lainnya ke terminal positif aki donor",
+                        "Hubungkan kabel hitam ke terminal negatif aki donor",
+                        "Hubungkan ujung kabel hitam lainnya ke ground (bukan terminal negatif aki tekor)",
+                        "Nyalakan mesin donor, tunggu 5 menit, lalu coba start mesin yang tekor"
+                    ],
+                    "tips": [
+                        "Pastikan kedua kendaraan tidak saling bersentuhan",
+                        "Lepas kabel dengan urutan terbalik",
+                        "Periksa terminal aki dari korosi",
+                        "Ganti aki jika sudah lemah"
+                    ]
+                }
+            ]
+        };
+    </script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tips & Trik Kendaraan - Tabel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; font-family: 'Poppins', sans-serif; }
+    .table thead th { background: #326ada; color: #fff; }
+    .table-hover tbody tr:hover { background: #eaf1fb; }
+    .section-title { font-weight: 700; color: #326ada; margin-top: 2rem; }
+    .section-subtitle { color: #6c757d; margin-bottom: 2rem; }
+    .btn-detail { font-size: 0.95rem; }
+    .badge { font-size: 0.95em; }
+    .modal-title { font-weight: 600; }
+    .modal-category-badge { background: #326ada !important; color: #fff; }
+    .modal-difficulty-badge.bg-success { background: #198754 !important; }
+    .modal-difficulty-badge.bg-warning { background: #ffc107 !important; }
+    .modal-difficulty-badge.bg-danger { background: #dc3545 !important; }
+  </style>
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section class="hero-section py-5 bg-primary text-white text-center position-relative" id="heroSection">
+    <div class="container position-relative z-2">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-7 mx-auto" data-aos="fade-up">
+          <h1 class="display-4 fw-bold mb-3">Tips & Trik Motor</h1>
+          <p class="lead mb-4">Solusi inspiratif untuk perawatan, penghematan, dan penanganan kendala motor harian Anda.</p>
+          <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap">
+            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Solusi Motor</span>
+            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Tips Hemat BBM</span>
+            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Perawatan Rem</span>
+            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Masalah Transmisi</span>
+          </div>
+          <div class="search-bar-wrapper mb-4">
+            <input type="text" class="form-control form-control-lg shadow-sm" id="searchInput" placeholder="Cari masalah, tips, atau solusi motor..." style="max-width: 480px; margin: 0 auto;">
+          </div>
+          <a href="#tipsGrid" class="btn btn-warning btn-lg px-4 fw-bold" id="scrollToTipsBtn"><i class="fas fa-motorcycle me-2"></i>Jelajahi Tips</a>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi Motor" class="img-fluid rounded shadow-lg" style="max-height: 320px; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background:rgba(0,0,0,0.25);"></div>
+  </section>
+
+  <!-- GRID CARD TIPS -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row" id="tipsGrid">
+        <!-- Card tips akan diisi oleh JavaScript -->
+      </div>
+      <div class="text-end text-muted mt-2">
+        <span id="resultsCount">0</span> tips motor ditampilkan
+      </div>
+      <nav id="paginationNav" class="mt-4 d-flex justify-content-center"></nav>
+    </div>
+  </section>
+
+  <!-- Modal Detail -->
+  <div class="modal fade" id="tipModal" tabindex="-1" aria-labelledby="tipModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tipModalLabel">
+            <span id="modalTitle"></span>
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-footer">
+          <span class="badge modal-category-badge" id="modalCategory"></span>
+          <span class="badge modal-difficulty-badge ms-2" id="modalDifficulty"></span>
+          <small class="text-muted ms-auto" id="modalReadTime"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data tips (bisa juga diambil dari file eksternal/data.json) -->
+  <script>
+    // Fungsi untuk mengambil data tips dari data.json
+    let tipsData = { tips: [] };
+    async function loadTipsData() {
+      try {
+        const res = await fetch('data/data.json');
+        if (!res.ok) throw new Error('Gagal fetch data.json');
+        tipsData = await res.json();
+      } catch (e) {
+        // Fallback ke data bawaan jika fetch gagal
+        tipsData = {
+          "tips": [
+            { "id": 2, "title": "Tips Menghemat BBM Motor", "description": "Cara efektif untuk mengurangi konsumsi bahan bakar motor dengan teknik berkendara yang tepat.", "category": "Motor", "difficulty": "Mudah", "readTime": "2 menit", "steps": ["Jaga tekanan angin ban sesuai standar", "Lakukan servis berkala setiap 3.000 km", "Bersihkan filter udara secara rutin", "Gunakan oli mesin berkualitas baik", "Hindari beban berlebihan"], "tips": ["Berkendara dengan kecepatan konstan", "Hindari akselerasi mendadak", "Matikan mesin saat berhenti lama"] },
+            { "id": 5, "title": "Perawatan Sistem Rem Motor", "description": "Tips penting untuk menjaga sistem rem motor agar selalu dalam kondisi optimal dan aman.", "category": "Motor", "difficulty": "Sedang", "readTime": "4 menit", "steps": ["Periksa ketebalan kampas rem secara berkala", "Cek level minyak rem dan tambahkan jika kurang", "Periksa kondisi selang rem dari kebocoran", "Bersihkan piringan rem dari kotoran"], "tips": ["Ganti kampas rem jika sudah tipis", "Gunakan minyak rem sesuai spesifikasi", "Lakukan bleeding rem jika terasa spongy"] }
+          ]
+        };
+      }
+    }
+
+    function filterMotorTips(keyword) {
+      // Normalisasi data agar vehicle_type: 'motor' juga dianggap category: 'Motor'
+      tipsData.tips.forEach(tip => {
+        if (!tip.category && tip.vehicle_type && tip.vehicle_type.toLowerCase() === 'motor') {
+          tip.category = 'Motor';
+        }
+      });
+      return tipsData.tips.filter(tip => {
+        if (tip.category !== 'Motor') return false;
+        if (!keyword) return true;
+        const lower = keyword.toLowerCase();
+        return (
+          tip.title.toLowerCase().includes(lower) ||
+          tip.description.toLowerCase().includes(lower) ||
+          (tip.steps && tip.steps.some(s => s.toLowerCase().includes(lower))) ||
+          (tip.tips && tip.tips.some(s => s.toLowerCase().includes(lower)))
+        );
+      });
+    }
+
+    let currentPage = 1;
+    const itemsPerPage = 9;
+
+    function renderTipsGrid(keyword = '') {
+      const tipsGrid = document.getElementById('tipsGrid');
+      tipsGrid.innerHTML = '';
+      const filtered = filterMotorTips(keyword);
+      const total = filtered.length;
+      const totalPages = Math.ceil(total / itemsPerPage);
+      if (currentPage > totalPages) currentPage = 1;
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      const paginated = filtered.slice(start, end);
+      paginated.forEach(tip => {
+        const col = document.createElement('div');
+        col.className = 'col-lg-4 col-md-6 mb-4';
+        col.innerHTML = `
+          <div class="card h-100 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+            <img src="${tip.image || 'https://via.placeholder.com/300x200'}" class="card-img-top" alt="Tips & Trik">
+            <div class="card-body">
+              <h5 class="card-title">${tip.title}</h5>
+              <p class="card-text">${tip.description}</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <span class="badge modal-category-badge" id="modalCategory">${tip.category || (tip.vehicle_type && tip.vehicle_type.charAt(0).toUpperCase() + tip.vehicle_type.slice(1)) || ''}</span>
+                  <span class="badge modal-difficulty-badge ms-2" id="modalDifficulty" class="${
+                    tip.difficulty === 'Mudah' ? 'bg-success' :
+                    tip.difficulty === 'Sedang' ? 'bg-warning' : 'bg-danger'
+                  }">${tip.difficulty || ''}</span>
+                  <small class="text-muted ms-auto" id="modalReadTime">${tip.readTime || ''}</small>
+                </small>
+              </p>
+              <button class="btn btn-sm btn-primary btn-detail" data-id="${tip.id}"><i class="fas fa-eye"></i> Detail</button>
+            </div>
+          </div>
+        `;
+        tipsGrid.appendChild(col);
+      });
+      document.getElementById('resultsCount').textContent = filtered.length;
+      renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+      const nav = document.getElementById('paginationNav');
+      nav.innerHTML = '';
+      if (totalPages <= 1) return;
+      let html = '<ul class="pagination">';
+      for (let i = 1; i <= totalPages; i++) {
+        html += `<li class="page-item${i === currentPage ? ' active' : ''}"><a class="page-link" href="#">${i}</a></li>`;
+      }
+      html += '</ul>';
+      nav.innerHTML = html;
+      nav.querySelectorAll('.page-link').forEach((link, idx) => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          currentPage = idx + 1;
+          renderTipsGrid(document.getElementById('searchInput').value);
+          window.scrollTo({ top: document.getElementById('tipsGrid').offsetTop - 80, behavior: 'smooth' });
+        });
+      });
+    }
+
+    function showTipDetails(tipId) {
+      const tip = tipsData.tips.find(t => t.id == tipId);
+      if (!tip) return;
+      document.getElementById('modalTitle').textContent = tip.title;
+      let html = '';
+      if (tip.image) {
+        html += `<img src="${tip.image}" class="img-fluid rounded mb-3" alt="${tip.title}">`;
+      }
+      html += `<p>${tip.description || ''}</p>`;
+      if (tip.solusi && tip.solusi.length) {
+        html += `<h6 class='mt-3'>Langkah-langkah / Solusi:</h6><ol>${tip.solusi.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+      } else if (tip.steps && tip.steps.length) {
+        html += `<h6 class='mt-3'>Langkah-langkah:</h6><ol>${tip.steps.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+      }
+      if (tip.tips && tip.tips.length) {
+        html += `<h6 class='mt-3'>Tips Tambahan:</h6><ul>${tip.tips.map(s=>`<li>${s}</li>`).join('')}</ul>`;
+      }
+      if (tip.batas_aman) {
+        html += `<h6 class='mt-3'>Batas Aman:</h6><ul>`;
+        for (const [k,v] of Object.entries(tip.batas_aman)) {
+          html += `<li><strong>${k.replace(/_/g,' ').replace(/\b\w/g, l => l.toUpperCase())}:</strong> ${v}</li>`;
+        }
+        html += `</ul>`;
+      }
+      if (tip.penanggulangan) {
+        if (tip.penanggulangan.pencegahan && tip.penanggulangan.pencegahan.length) {
+          html += `<h6 class='mt-3'>Pencegahan:</h6><ul>${tip.penanggulangan.pencegahan.map(s=>`<li>${s}</li>`).join('')}</ul>`;
+        }
+        if (tip.penanggulangan.darurat && tip.penanggulangan.darurat.length) {
+          html += `<h6 class='mt-3'>Tindakan Darurat:</h6><ul>${tip.penanggulangan.darurat.map(s=>`<li>${s}</li>`).join('')}</ul>`;
+        }
+      }
+      document.getElementById('modalBody').innerHTML = html;
+      document.getElementById('modalCategory').textContent = tip.category || (tip.vehicle_type && tip.vehicle_type.charAt(0).toUpperCase() + tip.vehicle_type.slice(1)) || '';
+      document.getElementById('modalDifficulty').textContent = tip.difficulty || '';
+      document.getElementById('modalDifficulty').className = `badge modal-difficulty-badge ms-2 ${
+        tip.difficulty === 'Mudah' ? 'bg-success' :
+        tip.difficulty === 'Sedang' ? 'bg-warning' : 'bg-danger'
+      }`;
+      document.getElementById('modalReadTime').textContent = tip.readTime || '';
+      new bootstrap.Modal(document.getElementById('tipModal')).show();
+    }
+
+    document.addEventListener('DOMContentLoaded', async function() {
+      await loadTipsData();
+      renderTipsGrid();
+      document.getElementById('tipsGrid').addEventListener('click', function(e) {
+        if (e.target.closest('.btn-detail')) {
+          const id = e.target.closest('.btn-detail').dataset.id;
+          showTipDetails(id);
+        }
+      });
+      document.getElementById('searchInput').addEventListener('input', function() {
+        currentPage = 1;
+        renderTipsGrid(this.value);
+      });
+
+      // Scroll to tips grid when button is clicked
+      document.getElementById('scrollToTipsBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        const tipsGrid = document.getElementById('tipsGrid');
+        tipsGrid.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
