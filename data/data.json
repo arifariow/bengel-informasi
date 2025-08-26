@@ -32,7 +32,9 @@
           "Gunakan air biasa sebagai pengganti sementara",
           "Hubungi bengkel terdekat untuk penanganan lanjut"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 2,
@@ -66,7 +68,9 @@
           "Gunakan jumper aki jika aki lemah",
           "Hubungi mekanik jika masalah berlanjut"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 3,
@@ -98,7 +102,9 @@
           "Gunakan rem tangan secara hati-hati jika rem utama blong",
           "Segera menepi dan panggil bantuan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 4,
@@ -130,7 +136,9 @@
           "Buka jendela sebagai ventilasi sementara",
           "Kunjungi spesialis AC mobil"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 5,
@@ -161,7 +169,9 @@
           "Hubungi bengkel atau layanan darurat jalan tol",
           "Hindari mengemudi jarak jauh jika lampu menyala stabil"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 6,
@@ -192,7 +202,9 @@
           "Menepi dan periksa kondisi fisik ban",
           "Hindari perjalanan jauh sebelum diperbaiki"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 7,
@@ -222,7 +234,9 @@
           "Periksa level oli dan air radiator, jangan dijalankan jika kurang",
           "Gunakan jasa towing untuk membawa mobil ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 8,
@@ -253,7 +267,9 @@
           "Dorong motor ke bengkel terdekat",
           "Selalu bawa kunci pas dasar untuk menyetel rantai"
         ]
-      }
+      },
+      "youtube_link": "https://www.youtube.com/watch?v=coOJe2rW5FE",
+      "source": "IB Channel"
     },
     {
       "id": 9,
@@ -284,7 +300,9 @@
           "Matikan mesin, masukkan gigi 1, lalu nyalakan mesin sambil menahan kopling untuk memulai jalan",
           "Segera bawa ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 10,
@@ -315,7 +333,9 @@
           "Ganti dengan ban serep",
           "Jika tidak ada ban serep, berkendaralah dengan sangat pelan ke bengkel ban terdekat"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 11,
@@ -345,7 +365,9 @@
           "Meskipun biasanya tidak darurat, asap hitam yang tebal menandakan pembakaran tidak efisien",
           "Segera periksakan ke bengkel untuk menghindari kerusakan lebih lanjut pada catalytic converter"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 12,
@@ -376,7 +398,9 @@
           "Gunakan produk water repellent (efek daun talas) pada kaca sebagai tindakan preventif",
           "Tunggu hujan reda sebelum melanjutkan perjalanan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 13,
@@ -407,7 +431,9 @@
           "Buka semua jendela untuk mengeluarkan uap bensin",
           "Hubungi layanan darurat atau towing"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 14,
@@ -437,7 +463,9 @@
           "Bawa oli cadangan jika bepergian jauh",
           "Segera rencanakan perbaikan untuk menghindari kerusakan lebih parah"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 15,
@@ -465,7 +493,9 @@
           "Meskipun tidak berbahaya secara mekanis, segera perbaiki untuk keselamatan komunikasi di jalan",
           "Gunakan isyarat tangan jika diperlukan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 16,
@@ -494,7 +524,9 @@
           "Jika kaca macet dalam posisi terbuka, coba tarik atau dorong kaca secara manual sambil menekan saklar",
           "Tutup sementara dengan plastik jika tidak bisa ditutup dan cuaca buruk"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 17,
@@ -522,7 +554,9 @@
           "Saat parkir di tanjakan, selalu ganjal ban dan masukkan gigi 1 (untuk tanjakan) atau gigi mundur (untuk turunan)",
           "Segera lakukan penyetelan jika terasa tidak pakem"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 18,
@@ -551,7 +585,9 @@
           "Jika shockbreaker mati, motor akan terasa tidak stabil. Berkendaralah lebih pelan dan hati-hati, terutama saat menikung",
           "Segera ganti untuk mengembalikan keamanan dan kenyamanan berkendara"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 19,
@@ -580,7 +616,9 @@
           "Jika pintu tidak bisa ditutup rapat, ikat sementara dengan tali dari dalam demi keamanan",
           "Jika tidak bisa dibuka dari dalam, coba buka dari luar atau turun dari pintu lain"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 20,
@@ -610,7 +648,9 @@
           "Jika embun muncul tiba-tiba dan sangat tebal, kurangi kecepatan dan nyalakan lampu hazard",
           "Menepi di tempat aman jika visibilitas benar-benar nol"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 21,
@@ -639,7 +679,9 @@
           "Gredek biasanya tidak menyebabkan motor mogok, namun sangat mengganggu kenyamanan",
           "Jika getaran sangat parah, kurangi akselerasi mendadak"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 22,
@@ -669,7 +711,9 @@
           "Gunakan momentum untuk melewati tanjakan, jangan berhenti di tengah jalan",
           "Segera bawa ke bengkel, jangan tunggu sampai tidak bisa jalan sama sekali"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 23,
@@ -699,7 +743,9 @@
           "Jika mesin sering mati, mainkan sedikit pedal gas saat berhenti untuk menjaga RPM",
           "Matikan AC untuk mengurangi beban mesin"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 24,
@@ -728,7 +774,9 @@
           "Andalkan sepenuhnya pada spion (dalam, samping) dan menoleh ke belakang saat mundur",
           "Minta bantuan orang lain sebagai pemandu jika area parkir sangat sempit"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 25,
@@ -756,7 +804,9 @@
           "Jika pandangan terhalang kotoran saat berkendara, menepi dan bersihkan kaca secara manual",
           "Bawa sebotol air dan kain lap di mobil untuk kondisi darurat"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 26,
@@ -784,7 +834,9 @@
           "Jika terasa oblak atau seret, segera kurangi kecepatan dan berkendara dengan sangat hati-hati",
           "Segera bawa ke bengkel, jangan ditunda"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 27,
@@ -814,7 +866,9 @@
         "darurat": [
           "Jika terkena cairan kimia keras, segera bilas dengan banyak air"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 28,
@@ -843,7 +897,9 @@
           "Kunci dan buka setiap pintu secara manual untuk sementara waktu",
           "Jika pintu tidak bisa dikunci sama sekali, jangan tinggalkan barang berharga di dalam mobil"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 29,
@@ -874,7 +930,9 @@
           "Gunakan engine brake (turunkan gigi persneling) untuk membantu memperlambat laju motor",
           "Arahkan motor ke area yang aman untuk berhenti. JANGAN matikan mesin."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 30,
@@ -904,7 +962,9 @@
           "Jika keausan sudah parah, segera ganti ban dan lakukan spooring",
           "Berkendara lebih hati-hati karena cengkeraman ban tidak optimal"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 31,
@@ -932,7 +992,9 @@
           "Gunakan feeling dan suara mesin untuk memperkirakan kecepatan di malam hari",
           "Perkirakan sisa bensin berdasarkan jarak tempuh terakhir"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 32,
@@ -962,7 +1024,9 @@
           "Hindari akselerasi mendadak, kendarai mobil dengan lebih halus",
           "Jika ngelitik sangat parah, segera periksakan ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 33,
@@ -989,7 +1053,9 @@
         "darurat": [
           "Tidak ada tindakan darurat yang diperlukan, masalah ini bisa diperbaiki lain waktu"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 34,
@@ -1019,7 +1085,9 @@
           "Manfaatkan engine brake dengan menurunkan gigi transmisi",
           "Segera menepi dan jangan melanjutkan perjalanan sebelum diperbaiki"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 35,
@@ -1049,7 +1117,9 @@
           "Jaga jarak aman lebih jauh dari kendaraan di depan",
           "Segera periksakan ke bengkel yang memiliki scanner"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 36,
@@ -1077,7 +1147,9 @@
         "darurat": [
           "Tidak ada tindakan darurat, perbaikan bisa dilakukan kapan saja"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 37,
@@ -1106,7 +1178,9 @@
           "Gunakan mode manual untuk membuka dan menutup pintu",
           "Jika macet total, jangan dipaksa karena bisa merusak komponen lain"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 38,
@@ -1136,7 +1210,9 @@
           "Jangan melanjutkan perjalanan sama sekali",
           "Hubungi layanan towing untuk membawa mobil ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 39,
@@ -1164,7 +1240,9 @@
         "darurat": [
           "Jika starter kaki macet dan starter elektrik juga mati, satu-satunya cara adalah mendorong motor"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 40,
@@ -1193,7 +1271,9 @@
           "Berkendara dengan lebih waspada karena fitur keselamatan utama tidak aktif",
           "Segera periksakan ke bengkel yang memiliki alat scan yang kompeten. Jangan coba perbaiki sendiri."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 41,
@@ -1224,7 +1304,9 @@
           "Jangan menjalankan mesin dengan level oli di bawah minimum",
           "Bawa oli cadangan untuk kondisi darurat"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 42,
@@ -1255,7 +1337,9 @@
           "Hindari manuver mendadak",
           "Segera periksakan ke bengkel spesialis kaki-kaki"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 43,
@@ -1284,7 +1368,9 @@
           "Berkendara lebih defensif dan waspada karena tidak bisa memberi peringatan suara",
           "Segera perbaiki untuk keselamatan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 44,
@@ -1314,7 +1400,9 @@
           "Jika hentakan sangat kasar, hindari penggunaan mobil untuk mencegah kerusakan lebih parah",
           "Bawa ke bengkel spesialis transmisi matic"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 45,
@@ -1344,7 +1432,9 @@
           "Jika motor mogok, coba starter engkol jika ada",
           "Bawa ke bengkel untuk pemeriksaan sistem pengisian"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 46,
@@ -1374,7 +1464,9 @@
           "Gunakan lampu high beam dengan bijak jika lampu utama sangat redup (perhatikan pengendara lain)",
           "Hindari berkendara malam hari di jalan tanpa penerangan jika kondisi parah"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 47,
@@ -1405,7 +1497,9 @@
           "Matikan mesin dengan menggunakan kunci kontak atau engine cut-off switch",
           "Gunakan rem untuk menghentikan motor. JANGAN PANIK."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 48,
@@ -1435,7 +1529,9 @@
           "Hindari akselerasi mendadak, buka gas secara perlahan",
           "Jika parah, menepi dan periksa kondisi busi"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 49,
@@ -1464,7 +1560,9 @@
           "Bunyi decit biasanya tidak langsung berbahaya, namun merupakan peringatan",
           "Jika bunyi sangat keras atau belt terlihat longgar, segera periksakan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 50,
@@ -1497,7 +1595,9 @@
           "Gunakan kacamata pengaman jika ada",
           "Jika tidak yakin, panggil bantuan profesional"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 51,
@@ -1527,7 +1627,9 @@
           "JANGAN PERNAH melanjutkan perjalanan jika lampu indikator oli menyala, meskipun hanya berkedip",
           "Hubungi layanan towing untuk membawa mobil ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 52,
@@ -1557,7 +1659,9 @@
           "Mobil masih bisa dikemudikan meskipun setir berat, namun butuh tenaga ekstra",
           "Berkendara perlahan dan segera periksakan ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 53,
@@ -1587,7 +1691,9 @@
           "Jika kebocoran parah dan mengenai rem, JANGAN gunakan motor",
           "Segera bersihkan piringan cakram dan kampas rem dengan brake cleaner, lalu bawa ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 54,
@@ -1615,7 +1721,9 @@
           "Jika tidak bisa diperbaiki di tempat, lepas sementara bohlam lampu rem atau sekringnya untuk menghindari kebingungan pengendara lain",
           "Gunakan isyarat tangan untuk mengerem jika perlu dan segera ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 55,
@@ -1647,7 +1755,9 @@
           "Biarkan mesin dingin secara alami selama 15-30 menit sebelum melanjutkan perjalanan",
           "Periksakan ke bengkel jika sering terjadi"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 56,
@@ -1678,7 +1788,9 @@
           "Jangan menyalakan mesin",
           "Jauhkan dari sumber api"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 57,
@@ -1708,7 +1820,9 @@
           "Jika pandangan sangat terganggu saat hujan, nyalakan wiper terus menerus",
           "Fokuskan pandangan dan kurangi kecepatan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 58,
@@ -1738,7 +1852,9 @@
           "Jika aki tekor, motor bisa mogok. Jika overcharge, semua lampu bisa putus di jalan",
           "Segera ganti jika terdeteksi gejala kerusakan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 59,
@@ -1767,7 +1883,9 @@
           "Letakkan kain atau wadah untuk menampung tetesan",
           "Jika yang bocor adalah coolant (heater core), segera ke bengkel karena ini berhubungan dengan sistem pendingin mesin"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 60,
@@ -1797,7 +1915,9 @@
           "Simpan nomor telepon layanan darurat jalan tol atau jasa towing",
           "Bawa tool kit dasar dan P3K"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 61,
@@ -1827,7 +1947,9 @@
           "Selalu bawa busi cadangan dan kunci busi",
           "Jika mogok, coba bersihkan busi dari kerak sebagai pertolongan pertama"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 62,
@@ -1856,7 +1978,9 @@
           "Jika macet dalam keadaan terbuka, cari tuas atau kunci L darurat untuk menutupnya secara manual (lihat buku manual)",
           "Jika bocor, tutup sementara dengan lakban tahan air dari luar hingga sampai ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 63,
@@ -1885,7 +2009,9 @@
           "Jika getaran sangat terasa setelah menghantam lubang, kurangi kecepatan",
           "Segera periksakan ke bengkel press velg atau stel velg"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 64,
@@ -1914,7 +2040,9 @@
           "Bawa oli cadangan saat bepergian",
           "Rencanakan perbaikan di bengkel secepatnya"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 65,
@@ -1943,7 +2071,9 @@
           "Hindari akselerasi spontan",
           "Jika tarikan sangat berat, segera periksakan CVT untuk mencegah V-belt putus"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 66,
@@ -1973,7 +2103,9 @@
           "Cara terbaik adalah mendorong motor ke bengkel terdekat",
           "Berkendara tanpa kopling hanya untuk kondisi super darurat dan jarak sangat dekat"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 67,
@@ -2002,7 +2134,9 @@
         "darurat": [
           "Jika ada cairan tumpah, segera serap dengan kain atau tisu untuk mencegah noda permanen"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 68,
@@ -2030,7 +2164,9 @@
           "Jangan matikan mesin jika tidak terpaksa, karena mungkin tidak bisa distarter lagi",
           "Segera cari bengkel terdekat. Jika jarak jauh, lebih baik menepi dan panggil bantuan towing"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 69,
@@ -2061,7 +2197,9 @@
         "darurat": [
           "Jika bau sangat menyengat, parkir di tempat aman dan buka semua pintu agar udara bersirkulasi"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 70,
@@ -2090,7 +2228,9 @@
           "Jika tidak yakin, cara terbaik dan teraman adalah menggunakan jasa towing untuk membawa kendaraan ke bengkel terpercaya",
           "Lakukan pembersihan dan penggantian cairan secepat mungkin untuk mencegah karat dan kerusakan permanen"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 71,
@@ -2118,7 +2258,9 @@
         "darurat": [
           "Tidak ada tindakan darurat, namun jika gelembung sangat mengganggu pandangan, pertimbangkan untuk melepasnya atau menggantinya segera"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 72,
@@ -2147,7 +2289,9 @@
         "darurat": [
           "Kurangi kecepatan saat melewati jalan rusak atau polisi tidur untuk mengurangi guncangan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 73,
@@ -2176,7 +2320,9 @@
         "darurat": [
           "Jangan panik. Coba semua solusi dengan tenang. Jika kunci patah di dalam, panggil ahli kunci"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 74,
@@ -2204,7 +2350,9 @@
         "darurat": [
           "Jika motor mogok karena CDI mati, tidak ada solusi darurat di jalan. Harus diganti dengan yang baru."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 75,
@@ -2233,7 +2381,9 @@
           "Gunakan intuisi dari suara mesin dan laju kendaraan lain untuk memperkirakan kecepatan",
           "Perkirakan jarak dan konsumsi bensin secara manual"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 76,
@@ -2261,7 +2411,9 @@
         "darurat": [
           "Jika harus melihat ke belakang, lakukan dengan lebih sering menoleh langsung (shoulder check) dengan tetap waspada ke depan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 77,
@@ -2289,7 +2441,9 @@
         "darurat": [
           "Tidak ada tindakan darurat selain mempersiapkan diri untuk perbaikan/penggantian komponen kopling"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 78,
@@ -2318,7 +2472,9 @@
           "Gunakan bantuan tongkat atau benda lain untuk menahan pintu bagasi saat terbuka",
           "Selalu waspada saat berada di bawah pintu bagasi yang hidroliknya lemah"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 79,
@@ -2346,7 +2502,9 @@
         "darurat": [
           "Jika terpaksa menambah oli di jalan dan tidak menemukan merek yang sama, gunakan oli dengan spesifikasi viskositas yang sama atau paling mendekati"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 80,
@@ -2375,7 +2533,9 @@
           "Pindahkan tuas transmisi dengan jeda beberapa detik di setiap posisi (P-R-N-D) untuk mengurangi hentakan",
           "Segera periksakan jika hentakan semakin parah"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 81,
@@ -2403,7 +2563,9 @@
           "Jika mesin tidak mau hidup karena switch macet di posisi 'mematikan', coba goyang-goyangkan standar atau ketuk-ketuk switch-nya",
           "Selalu periksa secara visual posisi standar samping sebelum jalan jika fitur ini rusak"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 82,
@@ -2432,7 +2594,9 @@
         "darurat": [
           "Jika ban terlihat kempis, segera cari tempat tambah angin. Jangan paksakan berjalan jauh"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 83,
@@ -2462,7 +2626,9 @@
         "darurat": [
           "Jika mobil tiba-tiba tidak bisa distarter, memeriksa dan membersihkan terminal aki adalah salah satu pertolongan pertama yang bisa dilakukan"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 84,
@@ -2491,7 +2657,9 @@
           "Jika lampu ini menyala, segera menepi di tempat aman",
           "Periksa level minyak rem. Jika sangat kurang atau kosong, jangan lanjutkan perjalanan dan panggil bantuan. Ada kemungkinan rem blong."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 85,
@@ -2519,7 +2687,9 @@
         "darurat": [
           "Jika ada panel bodi yang akan lepas di jalan, ikat sementara dengan tali atau lakban hingga menemukan solusi permanen"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 86,
@@ -2548,7 +2718,9 @@
         "darurat": [
           "Pindahkan gigi dengan lebih perlahan dan pastikan kopling ditarik penuh"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 87,
@@ -2576,7 +2748,9 @@
         "darurat": [
           "Suara dengung biasanya tidak menyebabkan mogok mendadak, namun sebaiknya segera diperiksakan ke bengkel spesialis gardan atau kaki-kaki"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 88,
@@ -2604,7 +2778,9 @@
         "darurat": [
           "Jika terpaksa berkendara dengan jok licin, jepit tangki dengan paha lebih kuat untuk menjaga posisi"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 89,
@@ -2634,7 +2810,9 @@
           "Hindari mengemudikan mobil dalam kondisi pincang untuk jarak jauh",
           "Berkendara dengan perlahan dan segera bawa ke bengkel"
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 90,
@@ -2663,7 +2841,9 @@
         "darurat": [
           "Jika setelah berkendara piringan cakram terasa sangat panas padahal jarang mengerem, ini indikasi rem macet. Segera periksakan."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 91,
@@ -2691,7 +2871,9 @@
         "darurat": [
           "Jika alarm terus berbunyi, buka dan tutup semua pintu, kap mesin, dan bagasi dengan rapat. Kunci kembali mobil. Jika masih berlanjut, mungkin perlu mencabut sekring alarm untuk sementara."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 92,
@@ -2720,7 +2902,9 @@
         "darurat": [
           "Untuk sobekan kecil, bisa dilem sementara dengan lem super. Jika terjadi kebocoran saat hujan, sumbat sementara dengan kain."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 93,
@@ -2749,7 +2933,9 @@
         "darurat": [
           "Gunakan lampu jauh dengan bijak jika lampu dekat sangat redup, sambil tetap memperhatikan pengendara dari arah berlawanan. Kurangi kecepatan."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 94,
@@ -2777,7 +2963,9 @@
         "darurat": [
           "Jika muncul bunyi aneh yang sangat keras, kurangi kecepatan dan berkendara dengan hati-hati menuju bengkel terdekat. Hindari manuver mendadak."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 95,
@@ -2805,7 +2993,9 @@
           "Selalu bawa air mineral atau coolant cadangan.",
           "Rutin periksa level air di tabung reservoir setiap sebelum jalan jika Anda tahu ada masalah kebocoran halus."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 96,
@@ -2832,7 +3022,9 @@
         "darurat": [
           "Jika terasa gejala bearing rusak, segera kurangi kecepatan dan jangan gunakan motor untuk perjalanan jauh. Segera ganti."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 97,
@@ -2861,7 +3053,9 @@
         "darurat": [
           "Selalu sedia botol semprot berisi air dan kain microfiber di kendaraan untuk penanganan cepat."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 98,
@@ -2889,7 +3083,9 @@
         "darurat": [
           "Tidak ada solusi darurat di jalan jika koil mati. Motor harus didorong atau di-stut ke bengkel."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 99,
@@ -2918,7 +3114,9 @@
         "darurat": [
           "Jika terjadi korsleting (tercium bau gosong atau keluar asap), segera putuskan koneksi aki jika memungkinkan."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     },
     {
       "id": 100,
@@ -2946,7 +3144,9 @@
         "darurat": [
           "Jika Anda sadar ada baut yang patah atau kendor saat di jalan, segera menepi dengan sangat perlahan. Jangan lanjutkan perjalanan. Panggil bantuan darurat atau towing."
         ]
-      }
+      },
+      "youtube_link": "",
+      "source": ""
     }
   ]
 }
