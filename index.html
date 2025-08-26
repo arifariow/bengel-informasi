@@ -23,17 +23,14 @@
 </head>
 <body>
   <!-- HERO SECTION -->
-  <section class="hero-section py-5 bg-primary text-white text-center position-relative" id="heroSection">
+  <section class="hero-section bg-primary text-white text-center position-relative" id="heroSection" style="min-height: 100vh; display: flex; align-items: center;">
     <div class="container position-relative z-2">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-7 mx-auto" data-aos="fade-up">
           <h1 class="display-4 fw-bold mb-3">Tips & Trik Motor</h1>
           <p class="lead mb-4">Solusi inspiratif untuk perawatan, penghematan, dan penanganan kendala motor harian Anda.</p>
-          <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap">
-            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Solusi Motor</span>
-            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Tips Hemat BBM</span>
-            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Perawatan Rem</span>
-            <span class="badge bg-light text-primary fs-6 px-3 py-2 shadow-sm">Masalah Transmisi</span>
+          <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap" id="categoryTags">
+            <!-- Kategori akan diisi secara dinamis dari data.json -->
                             </div>
           <div class="search-bar-wrapper mb-4">
             <input type="text" class="form-control form-control-lg shadow-sm" id="searchInput" placeholder="Cari masalah, tips, atau solusi motor..." style="max-width: 480px; margin: 0 auto;">
@@ -112,7 +109,13 @@
         if (tip.category !== 'Motor') return false;
         if (!keyword) return true;
         const lower = keyword.toLowerCase();
+        
+        // Cek apakah keyword adalah kategori (kata pertama dari title)
+        const titleFirstWord = tip.title ? tip.title.split(' ')[0].toLowerCase() : '';
+        const isCategoryMatch = titleFirstWord === lower;
+        
         return (
+          isCategoryMatch ||
           tip.title.toLowerCase().includes(lower) ||
           tip.description.toLowerCase().includes(lower) ||
           (tip.steps && tip.steps.some(s => s.toLowerCase().includes(lower))) ||
@@ -250,9 +253,26 @@
         });
         html += `</ul></div>`;
       }
-      // Sumber
-      if (tip.source) {
-        html += `<hr><div class='text-muted small fst-italic'><i class='fas fa-link me-1'></i>Sumber: ${tip.source}</div>`;
+      // YouTube Video dan Sumber
+      if (tip.youtube_link || tip.source) {
+        html += `<hr>`;
+        
+        if (tip.youtube_link) {
+          // Ekstrak video ID dari YouTube URL
+          const videoId = tip.youtube_link.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/);
+          if (videoId && videoId[1]) {
+            html += `<div class='mb-3'>`;
+            html += `<h6><i class='fab fa-youtube text-danger me-2'></i>Video Tutorial</h6>`;
+            html += `<div class='ratio ratio-16x9'>`;
+            html += `<iframe src="https://www.youtube.com/embed/${videoId[1]}" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            html += `</div>`;
+            html += `</div>`;
+          }
+        }
+        
+        if (tip.source) {
+          html += `<div class='text-muted small fst-italic'><i class='fas fa-link me-1'></i>Sumber: ${tip.source}</div>`;
+        }
       }
       document.getElementById('modalBody').innerHTML = html;
       document.getElementById('modalCategory').textContent = tip.category || (tip.vehicle_type && tip.vehicle_type.charAt(0).toUpperCase() + tip.vehicle_type.slice(1)) || '';
@@ -296,9 +316,69 @@
       return html;
     }
 
+    // Fungsi untuk mendapatkan 4 kategori dari title
+    function getUniqueCategories() {
+      const categories = new Set();
+      tipsData.tips.forEach(tip => {
+        if (tip.title) {
+          // Ambil kata pertama dari title sebagai kategori
+          const firstWord = tip.title.split(' ')[0];
+          if (firstWord && firstWord.length > 2) { // Filter kata yang terlalu pendek
+            categories.add(firstWord);
+          }
+        }
+      });
+      const allCategories = Array.from(categories);
+      
+      // Pilih 4 kategori yang paling sering muncul
+      const categoryCount = {};
+      tipsData.tips.forEach(tip => {
+        if (tip.title) {
+          const firstWord = tip.title.split(' ')[0];
+          if (firstWord && firstWord.length > 2) {
+            categoryCount[firstWord] = (categoryCount[firstWord] || 0) + 1;
+          }
+        }
+      });
+      
+      // Urutkan berdasarkan jumlah kemunculan
+      const sortedCategories = Object.keys(categoryCount).sort((a, b) => 
+        categoryCount[b] - categoryCount[a]
+      );
+      
+      return sortedCategories.slice(0, 4);
+    }
+
+    // Fungsi untuk menampilkan kategori tags
+    function renderCategoryTags() {
+      const categoryTags = document.getElementById('categoryTags');
+      const categories = getUniqueCategories();
+      
+      categoryTags.innerHTML = '';
+      categories.forEach(category => {
+        const badge = document.createElement('span');
+        badge.className = 'badge bg-light text-primary fs-6 px-3 py-2 shadow-sm search-tag';
+        badge.textContent = category;
+        badge.style.cursor = 'pointer';
+        badge.addEventListener('click', function() {
+          // Filter berdasarkan kategori yang diklik
+          const searchInput = document.getElementById('searchInput');
+          searchInput.value = category;
+          currentPage = 1;
+          renderTipsGrid(category);
+          
+          // Scroll ke bagian tips
+          const tipsGrid = document.getElementById('tipsGrid');
+          tipsGrid.scrollIntoView({ behavior: 'smooth' });
+        });
+        categoryTags.appendChild(badge);
+      });
+    }
+
     // Pastikan event listener tombol detail tetap terpasang setelah render ulang
     document.addEventListener('DOMContentLoaded', async function() {
       await loadTipsData();
+      renderCategoryTags(); // Render kategori tags
       renderTipsGrid();
       document.getElementById('tipsGrid').addEventListener('click', function(e) {
         const btn = e.target.closest('.btn-detail');
