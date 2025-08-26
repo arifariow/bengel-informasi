@@ -10,6 +10,10 @@ body {
   background: linear-gradient(120deg, #326ada 0%, #4ea1ff 100%);
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero-section .hero-overlay {
   z-index: 1;
@@ -128,6 +132,8 @@ body {
 .search-tag:hover {
     background-color: #326ada !important;
     color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(50,106,218,0.3);
 }
 
 /* Navbar */
@@ -277,6 +283,11 @@ body {
 
 /* Untuk layar tablet dan di bawahnya (kurang dari 992px) */
 @media (max-width: 991.98px) {
+    .hero-section {
+        min-height: 100vh;
+        padding: 2rem 0;
+    }
+    
     .hero-title {
         font-size: 2.8rem; /* Ukuran judul diperkecil */
     }
@@ -297,6 +308,11 @@ body {
 
 /* Untuk layar ponsel (kurang dari 768px) */
 @media (max-width: 767.98px) {
+    .hero-section {
+        min-height: 100vh;
+        padding: 1.5rem 0;
+    }
+    
     .hero-title {
         font-size: 2.2rem; /* Ukuran judul diperkecil lagi untuk ponsel */
     }
@@ -440,6 +456,35 @@ body, .card, .modal-content, .footer-section, .navbar, .tip-list-item, .hero-sea
 .modal-footer .share-btn:hover {
     background: #326ada;
     color: #fff;
+}
+
+/* YOUTUBE VIDEO STYLING */
+.ratio-16x9 {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.ratio-16x9 iframe {
+    border-radius: 12px;
+}
+
+/* Modal body dengan video */
+.modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* Responsive video */
+@media (max-width: 768px) {
+    .ratio-16x9 {
+        margin: 0 -15px;
+        border-radius: 0;
+    }
+    
+    .ratio-16x9 iframe {
+        border-radius: 0;
+    }
 }
 
 /* TIPS CONTAINER FLEX FIX */
