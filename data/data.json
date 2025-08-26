@@ -2,39 +2,39 @@
   "tips": [
     {
       "id": 1,
-      "title": "Cara Mengatasi Mesin Mobil Overheat",
+      "title": "Cara Mengatasi Mesin Motor Overheat",
       "topic": "Masalah Mesin",
-      "vehicle_type": "mobil",
-      "description": "Panduan lengkap mengatasi mesin mobil yang terlalu panas dengan langkah-langkah aman dan efektif.",
-      "image": "IMG/777-s-UxAoaELiQ4U-unsplash.jpg",
+      "vehicle_type": "motor",
+      "description": "Panduan lengkap mengatasi mesin motor yang terlalu panas dengan langkah-langkah aman dan efektif.",
+      "image": "IMG/Rantai-Motor-Berisik.png",
       "solusi": [
-        "Matikan AC dan nyalakan heater untuk membantu pendinginan",
-        "Berhenti di tempat aman dan matikan mesin",
-        "Tunggu mesin dingin sebelum membuka kap mesin",
-        "Periksa level coolant di reservoir",
-        "Tambahkan air radiator jika diperlukan",
-        "Periksa kebocoran pada selang radiator"
+        "Hentikan motor di tempat aman dan matikan mesin",
+        "Biarkan mesin dingin sebelum membuka cover mesin",
+        "Periksa level oli mesin dan coolant (jika ada)",
+        "Bersihkan sirip-sirip pendingin dari kotoran dan debu",
+        "Periksa kondisi kipas radiator (untuk motor berpendingin cairan)",
+        "Pastikan sistem sirkulasi udara tidak terhalang"
       ],
       "batas_aman": {
         "suhu_normal": "80-90°C",
         "suhu_bahaya": "Diatas 100°C",
-        "tindakan_darurat": "Segera matikan mesin jika suhu mencapai zona merah"
+        "tindakan_darurat": "Segera matikan mesin jika terlihat asap atau bau terbakar"
       },
       "penanggulangan": {
         "pencegahan": [
-          "Periksa coolant secara rutin setiap 2 minggu",
-          "Ganti coolant setiap 40.000 km atau 2 tahun",
-          "Bersihkan radiator dari kotoran dan serangga",
-          "Periksa kondisi kipas radiator"
+          "Ganti oli mesin secara rutin sesuai jadwal",
+          "Bersihkan sirip-sirip pendingin secara berkala",
+          "Pastikan sistem pendingin berfungsi dengan baik",
+          "Hindari memaksa mesin bekerja terlalu keras"
         ],
         "darurat": [
-          "Jangan buka tutup radiator saat panas",
-          "Gunakan air biasa sebagai pengganti sementara",
+          "Jangan menuangkan air dingin ke mesin yang panas",
+          "Biarkan motor dingin secara alami",
           "Hubungi bengkel terdekat untuk penanganan lanjut"
         ]
       },
-      "youtube_link": "",
-      "source": ""
+      "youtube_link": "https://youtu.be/peNRCJ9IFjY?si=fFB8EloYexO6rbv1",
+      "source": "Silaban Channel"
     },
     {
       "id": 2,
@@ -3150,3 +3150,4 @@
     }
   ]
 }
+
